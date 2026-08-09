@@ -1,4 +1,151 @@
 {
+  "binary/binomo": {
+    "brand_name": "Binomo",
+    "category": "binary",
+    "domain": "binomo.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "binomo",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/closeoption": {
+    "brand_name": "Closeoption",
+    "category": "binary",
+    "domain": "closeoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "closeoption",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/deriv": {
+    "brand_name": "Deriv",
+    "category": "binary",
+    "domain": "deriv.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "deriv",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/expert-option": {
+    "brand_name": "Expertoption",
+    "category": "binary",
+    "domain": "expertoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "expert-option",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/iq-option": {
+    "brand_name": "Iq Option",
+    "category": "binary",
+    "domain": "iqoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "iq-option",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/nadex": {
+    "brand_name": "Nadex",
+    "category": "binary",
+    "domain": "nadex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "nadex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/olymp-trade": {
+    "brand_name": "Olymp Trade",
+    "category": "binary",
+    "domain": "olymptrade.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "olymp-trade",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "binary/pocket-option": {
     "brand_name": "Pocket Option",
     "category": "binary",
@@ -6,6 +153,48 @@
     "fetched_at": "2026-08-09",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "pocket-option",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "binary/quotex": {
+    "brand_name": "Quotex",
+    "category": "binary",
+    "domain": "quotex.io",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "quotex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/spectre-ai": {
+    "brand_name": "Spectre",
+    "category": "binary",
+    "domain": "spectre.ai",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "spectre-ai",
     "source": "website",
     "variants": {
       "icon": {
@@ -41,6 +230,258 @@
       }
     }
   },
+  "crypto/bitfinex": {
+    "brand_name": "Bitfinex",
+    "category": "crypto",
+    "domain": "bitfinex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitfinex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitget": {
+    "brand_name": "Bitget",
+    "category": "crypto",
+    "domain": "bitget.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitget",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bithumb": {
+    "brand_name": "Bithumb",
+    "category": "crypto",
+    "domain": "bithumb.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bithumb",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitkub": {
+    "brand_name": "Bitkub",
+    "category": "crypto",
+    "domain": "bitkub.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitkub",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitmex": {
+    "brand_name": "Bitmex",
+    "category": "crypto",
+    "domain": "bitmex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitmex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitpanda": {
+    "brand_name": "Bitpanda",
+    "category": "crypto",
+    "domain": "bitpanda.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitpanda",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitrue": {
+    "brand_name": "Bitrue",
+    "category": "crypto",
+    "domain": "bitrue.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitrue",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitso": {
+    "brand_name": "Bitso",
+    "category": "crypto",
+    "domain": "bitso.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitso",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitstamp": {
+    "brand_name": "Bitstamp",
+    "category": "crypto",
+    "domain": "bitstamp.net",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitstamp",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bitvavo": {
+    "brand_name": "Bitvavo",
+    "category": "crypto",
+    "domain": "bitvavo.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bitvavo",
+    "source": "wikipedia",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/blofin": {
+    "brand_name": "Blofin",
+    "category": "crypto",
+    "domain": "blofin.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "blofin",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/btse": {
+    "brand_name": "Btse",
+    "category": "crypto",
+    "domain": "btse.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "btse",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "crypto/bybit": {
     "brand_name": "Bybit",
     "category": "crypto",
@@ -49,6 +490,657 @@
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "bybit",
     "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/cex-io": {
+    "brand_name": "Cex",
+    "category": "crypto",
+    "domain": "cex.io",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "cex-io",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/coinbase": {
+    "brand_name": "Coinbase",
+    "category": "crypto",
+    "domain": "coinbase.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "coinbase",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/coincheck": {
+    "brand_name": "Coincheck",
+    "category": "crypto",
+    "domain": "coincheck.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "coincheck",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/coindcx": {
+    "brand_name": "Coindcx",
+    "category": "crypto",
+    "domain": "coindcx.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "coindcx",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/coinex": {
+    "brand_name": "Coinex",
+    "category": "crypto",
+    "domain": "coinex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "coinex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/coinw": {
+    "brand_name": "Coinw",
+    "category": "crypto",
+    "domain": "coinw.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "coinw",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/crypto-com": {
+    "brand_name": "Crypto",
+    "category": "crypto",
+    "domain": "crypto.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "crypto-com",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/deribit": {
+    "brand_name": "Deribit",
+    "category": "crypto",
+    "domain": "deribit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "deribit",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/digifinex": {
+    "brand_name": "Digifinex",
+    "category": "crypto",
+    "domain": "digifinex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "digifinex",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/gate-io": {
+    "brand_name": "Gate",
+    "category": "crypto",
+    "domain": "Gate.io",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "gate-io",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/gemini": {
+    "brand_name": "Gemini",
+    "category": "crypto",
+    "domain": "gemini.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "gemini",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/htx": {
+    "brand_name": "Htx",
+    "category": "crypto",
+    "domain": "htx.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "htx",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/independent-reserve": {
+    "brand_name": "Independent Reserve",
+    "category": "crypto",
+    "domain": "independentreserve.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "independent-reserve",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/korbit": {
+    "brand_name": "Korbit",
+    "category": "crypto",
+    "domain": "korbit.co.kr",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "korbit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/kraken": {
+    "brand_name": "Kraken",
+    "category": "crypto",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "kraken",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/kucoin": {
+    "brand_name": "Kucoin",
+    "category": "crypto",
+    "domain": "kucoin.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "kucoin",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/lbank": {
+    "brand_name": "Lbank",
+    "category": "crypto",
+    "domain": "lbank.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "lbank",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/luno": {
+    "brand_name": "Luno",
+    "category": "crypto",
+    "domain": "luno.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "luno",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/mercado-bitcoin": {
+    "brand_name": "Mercado Bitcoin",
+    "category": "crypto",
+    "domain": "mercadobitcoin.com.br",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "mercado-bitcoin",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/mexc": {
+    "brand_name": "Mexc",
+    "category": "crypto",
+    "domain": "mexc.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "mexc",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/novadax": {
+    "brand_name": "Novadax",
+    "category": "crypto",
+    "domain": "novadax.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "novadax",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/okx": {
+    "brand_name": "Okx",
+    "category": "crypto",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "okx",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/pionex": {
+    "brand_name": "Pionex",
+    "category": "crypto",
+    "domain": "pionex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "pionex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/poloniex": {
+    "brand_name": "Poloniex",
+    "category": "crypto",
+    "domain": "poloniex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "poloniex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/probit": {
+    "brand_name": "Probit",
+    "category": "crypto",
+    "domain": "probit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "probit",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/toobit": {
+    "brand_name": "Toobit",
+    "category": "crypto",
+    "domain": "toobit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "toobit",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/upbit": {
+    "brand_name": "Upbit",
+    "category": "crypto",
+    "domain": "upbit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "upbit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/wazirx": {
+    "brand_name": "Wazirx",
+    "category": "crypto",
+    "domain": "wazirx.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "wazirx",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/weex": {
+    "brand_name": "Weex",
+    "category": "crypto",
+    "domain": "weex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "weex",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "crypto/whitebit": {
+    "brand_name": "Whitebit",
+    "category": "crypto",
+    "domain": "whitebit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "whitebit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/xt-com": {
+    "brand_name": "Xt",
+    "category": "crypto",
+    "domain": "xt.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "xt-com",
+    "source": "website",
     "variants": {
       "icon": {
         "sizes": [
@@ -6794,6 +7886,300 @@
       }
     }
   },
+  "forex/admirals": {
+    "brand_name": "Admirals",
+    "category": "forex",
+    "domain": "admirals.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "admirals",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/alpari": {
+    "brand_name": "Alpari",
+    "category": "forex",
+    "domain": "alpari.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "alpari",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/atfx": {
+    "brand_name": "Atfx",
+    "category": "forex",
+    "domain": "atfx.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "atfx",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/avatrade": {
+    "brand_name": "Avatrade",
+    "category": "forex",
+    "domain": "avatrade.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "avatrade",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/axi": {
+    "brand_name": "Axi",
+    "category": "forex",
+    "domain": "axi.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "axi",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/blackbull-markets": {
+    "brand_name": "Blackbull Markets",
+    "category": "forex",
+    "domain": "blackbull.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "blackbull-markets",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/blueberry-markets": {
+    "brand_name": "Blueberry Markets",
+    "category": "forex",
+    "domain": "blueberrymarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "blueberry-markets",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/capital-com": {
+    "brand_name": "Capital",
+    "category": "forex",
+    "domain": "capital.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "capital-com",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/city-index": {
+    "brand_name": "City Index",
+    "category": "forex",
+    "domain": "cityindex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "city-index",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/cmc-markets": {
+    "brand_name": "Cmc Markets",
+    "category": "forex",
+    "domain": "cmcmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "cmc-markets",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/darwinex": {
+    "brand_name": "Darwinex",
+    "category": "forex",
+    "domain": "darwinex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "darwinex",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/doo-prime": {
+    "brand_name": "Doo Prime",
+    "category": "forex",
+    "domain": "dooprime.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "doo-prime",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/eightcap": {
+    "brand_name": "Eightcap",
+    "category": "forex",
+    "domain": "eightcap.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "eightcap",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/etoro": {
+    "brand_name": "Etoro",
+    "category": "forex",
+    "domain": "etoro.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "etoro",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "forex/exness": {
     "brand_name": "Exness",
     "category": "forex",
@@ -6823,6 +8209,300 @@
       }
     }
   },
+  "forex/fbs": {
+    "brand_name": "Fbs",
+    "category": "forex",
+    "domain": "fbs.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fbs",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/forex-com": {
+    "brand_name": "Forex",
+    "category": "forex",
+    "domain": "forex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "forex-com",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/fp-markets": {
+    "brand_name": "Fp Markets",
+    "category": "forex",
+    "domain": "fpmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fp-markets",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/fusion-markets": {
+    "brand_name": "Fusion Markets",
+    "category": "forex",
+    "domain": "fusionmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fusion-markets",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/fxcm": {
+    "brand_name": "Fxcm",
+    "category": "forex",
+    "domain": "fxcm.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fxcm",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/fxpro": {
+    "brand_name": "Fxpro",
+    "category": "forex",
+    "domain": "fxpro.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fxpro",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/fxtm": {
+    "brand_name": "Fxtm",
+    "category": "forex",
+    "domain": "forextime.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fxtm",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "forex/global-prime": {
+    "brand_name": "Global Prime",
+    "category": "forex",
+    "domain": "globalprime.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "global-prime",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/go-markets": {
+    "brand_name": "Go Markets",
+    "category": "forex",
+    "domain": "gomarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "go-markets",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/ig": {
+    "brand_name": "Ig",
+    "category": "forex",
+    "domain": "ig.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ig",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/interactive-brokers": {
+    "brand_name": "Interactive Brokers",
+    "category": "forex",
+    "domain": "interactivebrokers.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "interactive-brokers",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/justmarkets": {
+    "brand_name": "Justmarkets",
+    "category": "forex",
+    "domain": "justmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "justmarkets",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/lmax": {
+    "brand_name": "Lmax",
+    "category": "forex",
+    "domain": "lmax.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "lmax",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/oanda": {
+    "brand_name": "Oanda",
+    "category": "forex",
+    "domain": "oanda.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "oanda",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "forex/pepperstone": {
     "brand_name": "Pepperstone",
     "category": "forex",
@@ -6830,6 +8510,195 @@
     "fetched_at": "2026-08-09",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "pepperstone",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/plus500": {
+    "brand_name": "Plus500",
+    "category": "forex",
+    "domain": "plus500.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "plus500",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/roboforex": {
+    "brand_name": "Roboforex",
+    "category": "forex",
+    "domain": "roboforex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "roboforex",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/saxo-bank": {
+    "brand_name": "Saxo Bank",
+    "category": "forex",
+    "domain": "home.saxo",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "saxo-bank",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/swissquote": {
+    "brand_name": "Swissquote",
+    "category": "forex",
+    "domain": "swissquote.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "swissquote",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/thinkmarkets": {
+    "brand_name": "Thinkmarkets",
+    "category": "forex",
+    "domain": "thinkmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "thinkmarkets",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/tickmill": {
+    "brand_name": "Tickmill",
+    "category": "forex",
+    "domain": "tickmill.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "tickmill",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/trading212": {
+    "brand_name": "Trading 212",
+    "category": "forex",
+    "domain": "trading212.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "trading212",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/vantage": {
+    "brand_name": "Vantage",
+    "category": "forex",
+    "domain": "vantagemarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "vantage",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/windsor-brokers": {
+    "brand_name": "Windsor Brokers",
+    "category": "forex",
+    "domain": "windsorbrokers.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "windsor-brokers",
     "source": "google-favicon",
     "variants": {
       "icon": {
@@ -6852,6 +8721,279 @@
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "xm",
     "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/xtb": {
+    "brand_name": "Xtb",
+    "category": "forex",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "xtb",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "prop/alpha-capital-group": {
+    "brand_name": "Alpha Capital Group",
+    "category": "prop",
+    "domain": "alphacapitalgroup.uk",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "alpha-capital-group",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/alpha-futures": {
+    "brand_name": "Alpha Futures",
+    "category": "prop",
+    "domain": "alphafutures.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "alpha-futures",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/apex-trader-funding": {
+    "brand_name": "Apex Trader Funding",
+    "category": "prop",
+    "domain": "apextraderfunding.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "apex-trader-funding",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/aquafunded": {
+    "brand_name": "Aquafunded",
+    "category": "prop",
+    "domain": "aquafunded.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "aquafunded",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/audacity-capital": {
+    "brand_name": "Audacity Capital",
+    "category": "prop",
+    "domain": "audacitycapital.co.uk",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "audacity-capital",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/breakout-prop": {
+    "brand_name": "Breakout Prop",
+    "category": "prop",
+    "domain": "breakoutprop.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "breakout-prop",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/city-traders-imperium": {
+    "brand_name": "City Traders Imperium",
+    "category": "prop",
+    "domain": "citytradersimperium.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "city-traders-imperium",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/e8-funding": {
+    "brand_name": "E8 Funding",
+    "category": "prop",
+    "domain": "e8markets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "e8-funding",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/earn2trade": {
+    "brand_name": "Earn2Trade",
+    "category": "prop",
+    "domain": "earn2trade.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "earn2trade",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/elite-trader-funding": {
+    "brand_name": "Elite Trader Funding",
+    "category": "prop",
+    "domain": "elitetraderfunding.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "elite-trader-funding",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/fidelcrest": {
+    "brand_name": "Fidelcrest",
+    "category": "prop",
+    "domain": "fidelcrest.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fidelcrest",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/finotive-funding": {
+    "brand_name": "Finotive Funding",
+    "category": "prop",
+    "domain": "finotivefunding.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "finotive-funding",
+    "source": "website",
     "variants": {
       "icon": {
         "sizes": [
@@ -6890,6 +9032,468 @@
           512
         ],
         "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "prop/funded-trading-plus": {
+    "brand_name": "Funded Trading Plus",
+    "category": "prop",
+    "domain": "fundedtradingplus.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "funded-trading-plus",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/fundednext": {
+    "brand_name": "Fundednext",
+    "category": "prop",
+    "domain": "fundednext.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fundednext",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "prop/funderpro": {
+    "brand_name": "Funderpro",
+    "category": "prop",
+    "domain": "funderpro.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "funderpro",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/fundingpips": {
+    "brand_name": "Funding Pips",
+    "category": "prop",
+    "domain": "fundingpips.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fundingpips",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/fxify": {
+    "brand_name": "Fxify",
+    "category": "prop",
+    "domain": "fxify.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fxify",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/goat-funded-trader": {
+    "brand_name": "Goat Funded Trader",
+    "category": "prop",
+    "domain": "goatfundedtrader.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "goat-funded-trader",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/instant-funding": {
+    "brand_name": "Instant Funding",
+    "category": "prop",
+    "domain": "instantfunding.io",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "instant-funding",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/lark-funding": {
+    "brand_name": "Lark Funding",
+    "category": "prop",
+    "domain": "larkfunding.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "lark-funding",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/leeloo-trading": {
+    "brand_name": "Leeloo Trading",
+    "category": "prop",
+    "domain": "leelootrading.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "leeloo-trading",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/maven-trading": {
+    "brand_name": "Maven Trading",
+    "category": "prop",
+    "domain": "maventrading.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "maven-trading",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/my-funded-futures": {
+    "brand_name": "My Funded Futures",
+    "category": "prop",
+    "domain": "myfundedfutures.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "my-funded-futures",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/nordic-funder": {
+    "brand_name": "Nordic Funder",
+    "category": "prop",
+    "domain": "nordicfunder.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "nordic-funder",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/oneup-trader": {
+    "brand_name": "Oneup Trader",
+    "category": "prop",
+    "domain": "oneuptrader.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "oneup-trader",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/pipfarm": {
+    "brand_name": "Pipfarm",
+    "category": "prop",
+    "domain": "pipfarm.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "pipfarm",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/surgetrader": {
+    "brand_name": "Surgetrader",
+    "category": "prop",
+    "domain": "surgetrader.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "surgetrader",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/take-profit-trader": {
+    "brand_name": "Take Profit Trader",
+    "category": "prop",
+    "domain": "takeprofittrader.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "take-profit-trader",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/the-trading-pit": {
+    "brand_name": "The Trading Pit",
+    "category": "prop",
+    "domain": "thetradingpit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "the-trading-pit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/the5ers": {
+    "brand_name": "The 5%Ers",
+    "category": "prop",
+    "domain": "the5ers.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "the5ers",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/topstep": {
+    "brand_name": "Topstep",
+    "category": "prop",
+    "domain": "topstep.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "topstep",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/tradeday": {
+    "brand_name": "Tradeday",
+    "category": "prop",
+    "domain": "tradeday.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "tradeday",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/trueforexfunds": {
+    "brand_name": "Trueforexfunds",
+    "category": "prop",
+    "domain": "trueforexfunds.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "trueforexfunds",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/uprofit": {
+    "brand_name": "Uprofit",
+    "category": "prop",
+    "domain": "uprofit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "uprofit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
         "webp": true
       }
     }

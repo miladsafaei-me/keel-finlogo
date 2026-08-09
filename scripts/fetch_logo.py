@@ -460,6 +460,14 @@ def write_webp(png_bytes: bytes, path: Path) -> None:
 
 
 # Manifest bookkeeping
+#
+# fetch_logo.py is meant to be run many times back-to-back (or in parallel via
+# `xargs -P`) to seed a large batch. A bare read-modify-write on one shared
+# manifest.json would lose updates under concurrency, so the whole cycle is
+# wrapped in an flock on a sibling lockfile.
+
+MANIFEST_LOCK_PATH = MANIFEST_PATH.with_suffix(".json.lock")
+
 
 def load_manifest() -> dict:
     if MANIFEST_PATH.is_file():
@@ -472,20 +480,28 @@ def save_manifest(data: dict) -> None:
 
 
 def update_manifest(*, category, slug, brand_name, domain, source, license_note, variant, sizes, has_svg):
-    data = load_manifest()
-    key = f"{category}/{slug}"
-    entry = data.get(key) or {
-        "category": category, "slug": slug, "brand_name": brand_name,
-        "domain": domain, "variants": {},
-    }
-    entry["brand_name"] = brand_name
-    entry["domain"] = domain
-    entry["source"] = source
-    entry["license_note"] = license_note
-    entry["fetched_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    entry["variants"][variant] = {"sizes": sorted(sizes), "svg": has_svg, "webp": True}
-    data[key] = entry
-    save_manifest(data)
+    import fcntl
+
+    MANIFEST_LOCK_PATH.touch(exist_ok=True)
+    with open(MANIFEST_LOCK_PATH, "r+") as lock_fh:
+        fcntl.flock(lock_fh, fcntl.LOCK_EX)
+        try:
+            data = load_manifest()
+            key = f"{category}/{slug}"
+            entry = data.get(key) or {
+                "category": category, "slug": slug, "brand_name": brand_name,
+                "domain": domain, "variants": {},
+            }
+            entry["brand_name"] = brand_name
+            entry["domain"] = domain
+            entry["source"] = source
+            entry["license_note"] = license_note
+            entry["fetched_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            entry["variants"][variant] = {"sizes": sorted(sizes), "svg": has_svg, "webp": True}
+            data[key] = entry
+            save_manifest(data)
+        finally:
+            fcntl.flock(lock_fh, fcntl.LOCK_UN)
 
 
 # Main
