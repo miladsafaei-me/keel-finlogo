@@ -20,6 +20,26 @@
       }
     }
   },
+  "binary/capitalcore": {
+    "brand_name": "CapitalCore",
+    "category": "binary",
+    "domain": "capitalcore.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "capitalcore",
+    "source": "migrated:binaryoptiontrading",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "binary/closeoption": {
     "brand_name": "Closeoption",
     "category": "binary",
@@ -77,6 +97,26 @@
           128,
           256,
           512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "binary/gcoption": {
+    "brand_name": "GCOption",
+    "category": "binary",
+    "domain": "gcoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "gcoption",
+    "source": "migrated:binaryoptiontrading",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
         ],
         "svg": false,
         "webp": true
@@ -188,6 +228,26 @@
       }
     }
   },
+  "binary/raceoption": {
+    "brand_name": "RaceOption",
+    "category": "binary",
+    "domain": "raceoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "raceoption",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "binary/spectre-ai": {
     "brand_name": "Spectre",
     "category": "binary",
@@ -209,6 +269,26 @@
       }
     }
   },
+  "binary/videforex": {
+    "brand_name": "VideForex",
+    "category": "binary",
+    "domain": "videforex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "videforex",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "crypto/binance": {
     "brand_name": "Binance",
     "category": "crypto",
@@ -226,6 +306,26 @@
           512
         ],
         "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bingx": {
+    "brand_name": "BingX",
+    "category": "crypto",
+    "domain": "bingx.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "bingx",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
         "webp": true
       }
     }
@@ -961,6 +1061,26 @@
           512
         ],
         "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/phemex": {
+    "brand_name": "Phemex",
+    "category": "crypto",
+    "domain": "phemex.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "phemex",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
         "webp": true
       }
     }
@@ -8398,6 +8518,46 @@
       }
     }
   },
+  "forex/hfm": {
+    "brand_name": "HFM",
+    "category": "forex",
+    "domain": "hfm.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "hfm",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/ic-markets": {
+    "brand_name": "IC Markets",
+    "category": "forex",
+    "domain": "icmarkets.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "ic-markets",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "forex/ig": {
     "brand_name": "Ig",
     "category": "forex",
@@ -8854,6 +9014,26 @@
           128,
           256,
           512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/blueberry-funded": {
+    "brand_name": "Blueberry Funded",
+    "category": "prop",
+    "domain": "blueberryfunded.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "blueberry-funded",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
         ],
         "svg": false,
         "webp": true
@@ -9324,6 +9504,26 @@
           128,
           256,
           512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/sabiotrade": {
+    "brand_name": "SabioTrade",
+    "category": "prop",
+    "domain": "sabiotrade.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, previously fetched by the project's own crawler; migrated into keel-finlogo",
+    "slug": "sabiotrade",
+    "source": "migrated:revenika",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256
         ],
         "svg": false,
         "webp": true

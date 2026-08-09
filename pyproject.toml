@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "keel-finlogo"
-version = "0.2.0"
+version = "0.3.0"
 description = "Keel Finlogo — a shared, business-blind repository of high-quality brand logos (forex brokers, prop firms, crypto exchanges, binary-option brokers, regulators) and country flags, served as Django static assets to every Keel consumer."
 readme = "README.md"
 requires-python = ">=3.10"
