@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "keel-finlogo"
+version = "0.1.0"
+description = "Keel Finlogo — a shared, business-blind repository of high-quality brand logos (forex brokers, prop firms, crypto exchanges, binary-option brokers, regulators) and country flags, served as Django static assets to every Keel consumer."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Milad Safaei" }]
+license = { text = "UNLICENSED" }
+dependencies = ["Django>=4.2"]
+
+# The core (resolve/manifest/templatetag) only needs Django to register as a
+# staticfiles app. The fetch tooling under scripts/ is a maintenance-time-only
+# concern for this repo itself, never imported by a consumer at runtime.
+[project.optional-dependencies]
+fetch = ["requests>=2.28", "Pillow>=10.0"]
+
+[project.urls]
+Homepage = "https://github.com/miladsafaei-me/keel-finlogo"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/keel_finlogo"]

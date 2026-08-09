@@ -1,0 +1,6939 @@
+{
+  "binary/pocket-option": {
+    "brand_name": "Pocket Option",
+    "category": "binary",
+    "domain": "pocketoption.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "pocket-option",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/binance": {
+    "brand_name": "Binance",
+    "category": "crypto",
+    "domain": "binance.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "binance",
+    "source": "wikipedia",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "crypto/bybit": {
+    "brand_name": "Bybit",
+    "category": "crypto",
+    "domain": "bybit.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bybit",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "flag/ad": {
+    "brand_name": "Andorra",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ad",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ae": {
+    "brand_name": "United Arab Emirates",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ae",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/af": {
+    "brand_name": "Afghanistan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "af",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ag": {
+    "brand_name": "Antigua and Barbuda",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ag",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ai": {
+    "brand_name": "Anguilla",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ai",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/al": {
+    "brand_name": "Albania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "al",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/am": {
+    "brand_name": "Armenia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "am",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ao": {
+    "brand_name": "Angola",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ao",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/aq": {
+    "brand_name": "Antarctica",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "aq",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ar": {
+    "brand_name": "Argentina",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ar",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/as": {
+    "brand_name": "American Samoa",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "as",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/at": {
+    "brand_name": "Austria",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "at",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/au": {
+    "brand_name": "Australia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "au",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/aw": {
+    "brand_name": "Aruba",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "aw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ax": {
+    "brand_name": "\u00c5land Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ax",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/az": {
+    "brand_name": "Azerbaijan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "az",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ba": {
+    "brand_name": "Bosnia and Herzegovina",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ba",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bb": {
+    "brand_name": "Barbados",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bb",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bd": {
+    "brand_name": "Bangladesh",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/be": {
+    "brand_name": "Belgium",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "be",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bf": {
+    "brand_name": "Burkina Faso",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bg": {
+    "brand_name": "Bulgaria",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bh": {
+    "brand_name": "Bahrain",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bi": {
+    "brand_name": "Burundi",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bj": {
+    "brand_name": "Benin",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bl": {
+    "brand_name": "Saint Barth\u00e9lemy",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bm": {
+    "brand_name": "Bermuda",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bn": {
+    "brand_name": "Brunei",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bo": {
+    "brand_name": "Bolivia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bo",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bq": {
+    "brand_name": "Caribbean Netherlands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bq",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/br": {
+    "brand_name": "Brazil",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "br",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bs": {
+    "brand_name": "Bahamas",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bs",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bt": {
+    "brand_name": "Bhutan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bv": {
+    "brand_name": "Bouvet Island",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bw": {
+    "brand_name": "Botswana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/by": {
+    "brand_name": "Belarus",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "by",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/bz": {
+    "brand_name": "Belize",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "bz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ca": {
+    "brand_name": "Canada",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ca",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cc": {
+    "brand_name": "Cocos (Keeling) Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cd": {
+    "brand_name": "DR Congo",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cf": {
+    "brand_name": "Central African Republic",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cg": {
+    "brand_name": "Republic of the Congo",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ch": {
+    "brand_name": "Switzerland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ch",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ci": {
+    "brand_name": "C\u00f4te d'Ivoire (Ivory Coast)",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ci",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ck": {
+    "brand_name": "Cook Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ck",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cl": {
+    "brand_name": "Chile",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cm": {
+    "brand_name": "Cameroon",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cn": {
+    "brand_name": "China",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/co": {
+    "brand_name": "Colombia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "co",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cr": {
+    "brand_name": "Costa Rica",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cu": {
+    "brand_name": "Cuba",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cv": {
+    "brand_name": "Cape Verde",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cw": {
+    "brand_name": "Cura\u00e7ao",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cx": {
+    "brand_name": "Christmas Island",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cx",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cy": {
+    "brand_name": "Cyprus",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cy",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/cz": {
+    "brand_name": "Czechia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "cz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/de": {
+    "brand_name": "Germany",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "de",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/dj": {
+    "brand_name": "Djibouti",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "dj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/dk": {
+    "brand_name": "Denmark",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "dk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/dm": {
+    "brand_name": "Dominica",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "dm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/do": {
+    "brand_name": "Dominican Republic",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "do",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/dz": {
+    "brand_name": "Algeria",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "dz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ec": {
+    "brand_name": "Ecuador",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ec",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ee": {
+    "brand_name": "Estonia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ee",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/eg": {
+    "brand_name": "Egypt",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "eg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/eh": {
+    "brand_name": "Western Sahara",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "eh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/er": {
+    "brand_name": "Eritrea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "er",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/es": {
+    "brand_name": "Spain",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "es",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/et": {
+    "brand_name": "Ethiopia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "et",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/eu": {
+    "brand_name": "European Union",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "eu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fi": {
+    "brand_name": "Finland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fj": {
+    "brand_name": "Fiji",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fk": {
+    "brand_name": "Falkland Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fm": {
+    "brand_name": "Micronesia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fo": {
+    "brand_name": "Faroe Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fo",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/fr": {
+    "brand_name": "France",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "fr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ga": {
+    "brand_name": "Gabon",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ga",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gb": {
+    "brand_name": "United Kingdom",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gb",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gb-eng": {
+    "brand_name": "England",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gb-eng",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gb-nir": {
+    "brand_name": "Northern Ireland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gb-nir",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gb-sct": {
+    "brand_name": "Scotland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gb-sct",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gb-wls": {
+    "brand_name": "Wales",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gb-wls",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gd": {
+    "brand_name": "Grenada",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ge": {
+    "brand_name": "Georgia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ge",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gf": {
+    "brand_name": "French Guiana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gg": {
+    "brand_name": "Guernsey",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gh": {
+    "brand_name": "Ghana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gi": {
+    "brand_name": "Gibraltar",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gl": {
+    "brand_name": "Greenland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gm": {
+    "brand_name": "Gambia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gn": {
+    "brand_name": "Guinea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gp": {
+    "brand_name": "Guadeloupe",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gp",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gq": {
+    "brand_name": "Equatorial Guinea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gq",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gr": {
+    "brand_name": "Greece",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gs": {
+    "brand_name": "South Georgia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gs",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gt": {
+    "brand_name": "Guatemala",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gu": {
+    "brand_name": "Guam",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gw": {
+    "brand_name": "Guinea-Bissau",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/gy": {
+    "brand_name": "Guyana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "gy",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/hk": {
+    "brand_name": "Hong Kong",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "hk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/hm": {
+    "brand_name": "Heard Island and McDonald Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "hm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/hn": {
+    "brand_name": "Honduras",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "hn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/hr": {
+    "brand_name": "Croatia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "hr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ht": {
+    "brand_name": "Haiti",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ht",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/hu": {
+    "brand_name": "Hungary",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "hu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/id": {
+    "brand_name": "Indonesia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "id",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ie": {
+    "brand_name": "Ireland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ie",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/il": {
+    "brand_name": "Israel",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "il",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/im": {
+    "brand_name": "Isle of Man",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "im",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/in": {
+    "brand_name": "India",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "in",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/io": {
+    "brand_name": "British Indian Ocean Territory",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "io",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/iq": {
+    "brand_name": "Iraq",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "iq",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ir": {
+    "brand_name": "Iran",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ir",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/is": {
+    "brand_name": "Iceland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "is",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/it": {
+    "brand_name": "Italy",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "it",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/je": {
+    "brand_name": "Jersey",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "je",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/jm": {
+    "brand_name": "Jamaica",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "jm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/jo": {
+    "brand_name": "Jordan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "jo",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/jp": {
+    "brand_name": "Japan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "jp",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ke": {
+    "brand_name": "Kenya",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ke",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kg": {
+    "brand_name": "Kyrgyzstan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kh": {
+    "brand_name": "Cambodia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ki": {
+    "brand_name": "Kiribati",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ki",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/km": {
+    "brand_name": "Comoros",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "km",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kn": {
+    "brand_name": "Saint Kitts and Nevis",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kp": {
+    "brand_name": "North Korea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kp",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kr": {
+    "brand_name": "South Korea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kw": {
+    "brand_name": "Kuwait",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ky": {
+    "brand_name": "Cayman Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ky",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/kz": {
+    "brand_name": "Kazakhstan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "kz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/la": {
+    "brand_name": "Laos",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "la",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lb": {
+    "brand_name": "Lebanon",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lb",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lc": {
+    "brand_name": "Saint Lucia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/li": {
+    "brand_name": "Liechtenstein",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "li",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lk": {
+    "brand_name": "Sri Lanka",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lr": {
+    "brand_name": "Liberia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ls": {
+    "brand_name": "Lesotho",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ls",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lt": {
+    "brand_name": "Lithuania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lu": {
+    "brand_name": "Luxembourg",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/lv": {
+    "brand_name": "Latvia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "lv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ly": {
+    "brand_name": "Libya",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ly",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ma": {
+    "brand_name": "Morocco",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ma",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mc": {
+    "brand_name": "Monaco",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/md": {
+    "brand_name": "Moldova",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "md",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/me": {
+    "brand_name": "Montenegro",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "me",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mf": {
+    "brand_name": "Saint Martin",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mg": {
+    "brand_name": "Madagascar",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mh": {
+    "brand_name": "Marshall Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mk": {
+    "brand_name": "North Macedonia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ml": {
+    "brand_name": "Mali",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ml",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mm": {
+    "brand_name": "Myanmar",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mn": {
+    "brand_name": "Mongolia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mo": {
+    "brand_name": "Macau",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mo",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mp": {
+    "brand_name": "Northern Mariana Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mp",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mq": {
+    "brand_name": "Martinique",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mq",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mr": {
+    "brand_name": "Mauritania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ms": {
+    "brand_name": "Montserrat",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ms",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mt": {
+    "brand_name": "Malta",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mu": {
+    "brand_name": "Mauritius",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mv": {
+    "brand_name": "Maldives",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mw": {
+    "brand_name": "Malawi",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mx": {
+    "brand_name": "Mexico",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mx",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/my": {
+    "brand_name": "Malaysia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "my",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/mz": {
+    "brand_name": "Mozambique",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "mz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/na": {
+    "brand_name": "Namibia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "na",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nc": {
+    "brand_name": "New Caledonia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ne": {
+    "brand_name": "Niger",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ne",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nf": {
+    "brand_name": "Norfolk Island",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ng": {
+    "brand_name": "Nigeria",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ng",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ni": {
+    "brand_name": "Nicaragua",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ni",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nl": {
+    "brand_name": "Netherlands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/no": {
+    "brand_name": "Norway",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "no",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/np": {
+    "brand_name": "Nepal",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "np",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nr": {
+    "brand_name": "Nauru",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nu": {
+    "brand_name": "Niue",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/nz": {
+    "brand_name": "New Zealand",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "nz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/om": {
+    "brand_name": "Oman",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "om",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pa": {
+    "brand_name": "Panama",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pa",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pe": {
+    "brand_name": "Peru",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pe",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pf": {
+    "brand_name": "French Polynesia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pg": {
+    "brand_name": "Papua New Guinea",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ph": {
+    "brand_name": "Philippines",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ph",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pk": {
+    "brand_name": "Pakistan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pl": {
+    "brand_name": "Poland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pm": {
+    "brand_name": "Saint Pierre and Miquelon",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pn": {
+    "brand_name": "Pitcairn Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pr": {
+    "brand_name": "Puerto Rico",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ps": {
+    "brand_name": "Palestine",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ps",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pt": {
+    "brand_name": "Portugal",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/pw": {
+    "brand_name": "Palau",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "pw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/py": {
+    "brand_name": "Paraguay",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "py",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/qa": {
+    "brand_name": "Qatar",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "qa",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/re": {
+    "brand_name": "R\u00e9union",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "re",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ro": {
+    "brand_name": "Romania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ro",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/rs": {
+    "brand_name": "Serbia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "rs",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ru": {
+    "brand_name": "Russia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ru",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/rw": {
+    "brand_name": "Rwanda",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "rw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sa": {
+    "brand_name": "Saudi Arabia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sa",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sb": {
+    "brand_name": "Solomon Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sb",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sc": {
+    "brand_name": "Seychelles",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sd": {
+    "brand_name": "Sudan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/se": {
+    "brand_name": "Sweden",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "se",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sg": {
+    "brand_name": "Singapore",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sh": {
+    "brand_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/si": {
+    "brand_name": "Slovenia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "si",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sj": {
+    "brand_name": "Svalbard and Jan Mayen",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sk": {
+    "brand_name": "Slovakia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sl": {
+    "brand_name": "Sierra Leone",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sm": {
+    "brand_name": "San Marino",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sn": {
+    "brand_name": "Senegal",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/so": {
+    "brand_name": "Somalia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "so",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sr": {
+    "brand_name": "Suriname",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ss": {
+    "brand_name": "South Sudan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ss",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/st": {
+    "brand_name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "st",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sv": {
+    "brand_name": "El Salvador",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sx": {
+    "brand_name": "Sint Maarten",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sx",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sy": {
+    "brand_name": "Syria",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sy",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/sz": {
+    "brand_name": "Eswatini (Swaziland)",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "sz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tc": {
+    "brand_name": "Turks and Caicos Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/td": {
+    "brand_name": "Chad",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "td",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tf": {
+    "brand_name": "French Southern and Antarctic Lands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tg": {
+    "brand_name": "Togo",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/th": {
+    "brand_name": "Thailand",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "th",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tj": {
+    "brand_name": "Tajikistan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tk": {
+    "brand_name": "Tokelau",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tl": {
+    "brand_name": "Timor-Leste",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tm": {
+    "brand_name": "Turkmenistan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tn": {
+    "brand_name": "Tunisia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/to": {
+    "brand_name": "Tonga",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "to",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tr": {
+    "brand_name": "Turkey",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tr",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tt": {
+    "brand_name": "Trinidad and Tobago",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tv": {
+    "brand_name": "Tuvalu",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tw": {
+    "brand_name": "Taiwan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/tz": {
+    "brand_name": "Tanzania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "tz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ua": {
+    "brand_name": "Ukraine",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ua",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ug": {
+    "brand_name": "Uganda",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ug",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/um": {
+    "brand_name": "United States Minor Outlying Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "um",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/un": {
+    "brand_name": "United Nations",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "un",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us": {
+    "brand_name": "United States",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ak": {
+    "brand_name": "Alaska",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ak",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-al": {
+    "brand_name": "Alabama",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-al",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ar": {
+    "brand_name": "Arkansas",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ar",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-az": {
+    "brand_name": "Arizona",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-az",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ca": {
+    "brand_name": "California",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ca",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-co": {
+    "brand_name": "Colorado",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-co",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ct": {
+    "brand_name": "Connecticut",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ct",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-de": {
+    "brand_name": "Delaware",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-de",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-fl": {
+    "brand_name": "Florida",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-fl",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ga": {
+    "brand_name": "Georgia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ga",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-hi": {
+    "brand_name": "Hawaii",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-hi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ia": {
+    "brand_name": "Iowa",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ia",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-id": {
+    "brand_name": "Idaho",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-id",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-il": {
+    "brand_name": "Illinois",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-il",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-in": {
+    "brand_name": "Indiana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-in",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ks": {
+    "brand_name": "Kansas",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ks",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ky": {
+    "brand_name": "Kentucky",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ky",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-la": {
+    "brand_name": "Louisiana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-la",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ma": {
+    "brand_name": "Massachusetts",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ma",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-md": {
+    "brand_name": "Maryland",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-md",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-me": {
+    "brand_name": "Maine",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-me",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-mi": {
+    "brand_name": "Michigan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-mi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-mn": {
+    "brand_name": "Minnesota",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-mn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-mo": {
+    "brand_name": "Missouri",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-mo",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ms": {
+    "brand_name": "Mississippi",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ms",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-mt": {
+    "brand_name": "Montana",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-mt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nc": {
+    "brand_name": "North Carolina",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nd": {
+    "brand_name": "North Dakota",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ne": {
+    "brand_name": "Nebraska",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ne",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nh": {
+    "brand_name": "New Hampshire",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nj": {
+    "brand_name": "New Jersey",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nj",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nm": {
+    "brand_name": "New Mexico",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-nv": {
+    "brand_name": "Nevada",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-nv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ny": {
+    "brand_name": "New York",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ny",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-oh": {
+    "brand_name": "Ohio",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-oh",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ok": {
+    "brand_name": "Oklahoma",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ok",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-or": {
+    "brand_name": "Oregon",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-or",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-pa": {
+    "brand_name": "Pennsylvania",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-pa",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ri": {
+    "brand_name": "Rhode Island",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ri",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-sc": {
+    "brand_name": "South Carolina",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-sc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-sd": {
+    "brand_name": "South Dakota",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-sd",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-tn": {
+    "brand_name": "Tennessee",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-tn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-tx": {
+    "brand_name": "Texas",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-tx",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-ut": {
+    "brand_name": "Utah",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-ut",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-va": {
+    "brand_name": "Virginia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-va",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-vt": {
+    "brand_name": "Vermont",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-vt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-wa": {
+    "brand_name": "Washington",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-wa",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-wi": {
+    "brand_name": "Wisconsin",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-wi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-wv": {
+    "brand_name": "West Virginia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-wv",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/us-wy": {
+    "brand_name": "Wyoming",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "us-wy",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/uy": {
+    "brand_name": "Uruguay",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "uy",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/uz": {
+    "brand_name": "Uzbekistan",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "uz",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/va": {
+    "brand_name": "Vatican City (Holy See)",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "va",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/vc": {
+    "brand_name": "Saint Vincent and the Grenadines",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "vc",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ve": {
+    "brand_name": "Venezuela",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ve",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/vg": {
+    "brand_name": "British Virgin Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "vg",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/vi": {
+    "brand_name": "United States Virgin Islands",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "vi",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/vn": {
+    "brand_name": "Vietnam",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "vn",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/vu": {
+    "brand_name": "Vanuatu",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "vu",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/wf": {
+    "brand_name": "Wallis and Futuna",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "wf",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ws": {
+    "brand_name": "Samoa",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ws",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/xk": {
+    "brand_name": "Kosovo",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "xk",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/ye": {
+    "brand_name": "Yemen",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "ye",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/yt": {
+    "brand_name": "Mayotte",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "yt",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/za": {
+    "brand_name": "South Africa",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "za",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/zm": {
+    "brand_name": "Zambia",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "zm",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "flag/zw": {
+    "brand_name": "Zimbabwe",
+    "category": "flag",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "flagcdn.com (public domain / CC-licensed flag assets)",
+    "slug": "zw",
+    "source": "flagcdn.com",
+    "variants": {
+      "flag": {
+        "sizes": [
+          40,
+          80,
+          160,
+          320,
+          640
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "forex/exness": {
+    "brand_name": "Exness",
+    "category": "forex",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "exness",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "wordmark": {
+        "sizes": [
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/pepperstone": {
+    "brand_name": "Pepperstone",
+    "category": "forex",
+    "domain": "pepperstone.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "pepperstone",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "forex/xm": {
+    "brand_name": "Xm",
+    "category": "forex",
+    "domain": "xm.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "xm",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/ftmo": {
+    "brand_name": "FTMO",
+    "category": "prop",
+    "domain": "ftmo.com",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, from FTMO press kit",
+    "slug": "ftmo",
+    "source": "ftmo.com press kit (cropped diamond mark from official wordmark SVG)",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "wordmark": {
+        "sizes": [
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "regulator/asic": {
+    "brand_name": "Asic",
+    "category": "regulator",
+    "domain": "asic.gov.au",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "asic",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "regulator/fca": {
+    "brand_name": "Financial Conduct Authority",
+    "category": "regulator",
+    "domain": "",
+    "fetched_at": "2026-08-09",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "fca",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  }
+}
