@@ -15,3 +15,4 @@ venv/
 .ruff_cache/
 node_modules/
 *.log
+src/keel_finlogo/static/keel_finlogo/manifest.json.lock
