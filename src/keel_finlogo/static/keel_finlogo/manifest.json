@@ -8961,10 +8961,10 @@
     "brand_name": "Apex Trader Funding",
     "category": "prop",
     "domain": "apextraderfunding.com",
-    "fetched_at": "2026-08-09",
+    "fetched_at": "2026-08-10",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "apex-trader-funding",
-    "source": "google-favicon",
+    "source": "wikipedia",
     "variants": {
       "icon": {
         "sizes": [
@@ -8985,6 +8985,27 @@
     "fetched_at": "2026-08-09",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "aquafunded",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/aquafunded-futures": {
+    "brand_name": "Aquafunded Futures",
+    "category": "prop",
+    "domain": "aquafutures.io",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "aquafunded-futures",
     "source": "google-favicon",
     "variants": {
       "icon": {
@@ -9040,6 +9061,27 @@
       }
     }
   },
+  "prop/blueberry-futures": {
+    "brand_name": "Blueberry Futures",
+    "category": "prop",
+    "domain": "blueberryfutures.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "blueberry-futures",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "prop/breakout-prop": {
     "brand_name": "Breakout Prop",
     "category": "prop",
@@ -9082,6 +9124,27 @@
       }
     }
   },
+  "prop/daytraders": {
+    "brand_name": "Daytraders",
+    "category": "prop",
+    "domain": "daytraders.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "daytraders",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "prop/e8-funding": {
     "brand_name": "E8 Funding",
     "category": "prop",
@@ -9107,7 +9170,7 @@
     "brand_name": "Earn2Trade",
     "category": "prop",
     "domain": "earn2trade.com",
-    "fetched_at": "2026-08-09",
+    "fetched_at": "2026-08-10",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "earn2trade",
     "source": "website",
@@ -9300,6 +9363,27 @@
       }
     }
   },
+  "prop/futureselite": {
+    "brand_name": "Futureselite",
+    "category": "prop",
+    "domain": "futureselite.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "futureselite",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "prop/fxify": {
     "brand_name": "Fxify",
     "category": "prop",
@@ -9307,6 +9391,27 @@
     "fetched_at": "2026-08-09",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "fxify",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/goat-funded-futures": {
+    "brand_name": "Goat Funded Futures",
+    "category": "prop",
+    "domain": "goatfundedfutures.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "goat-funded-futures",
     "source": "website",
     "variants": {
       "icon": {
@@ -9338,6 +9443,27 @@
           512
         ],
         "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/hola-prime-futures": {
+    "brand_name": "Hola Prime Futures",
+    "category": "prop",
+    "domain": "holaprime.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "hola-prime-futures",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
         "webp": true
       }
     }
@@ -9430,10 +9556,10 @@
     "brand_name": "My Funded Futures",
     "category": "prop",
     "domain": "myfundedfutures.com",
-    "fetched_at": "2026-08-09",
+    "fetched_at": "2026-08-10",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "my-funded-futures",
-    "source": "google-favicon",
+    "source": "unavatar",
     "variants": {
       "icon": {
         "sizes": [
@@ -9442,7 +9568,7 @@
           256,
           512
         ],
-        "svg": false,
+        "svg": true,
         "webp": true
       }
     }
@@ -9593,6 +9719,27 @@
       }
     }
   },
+  "prop/the-trading-pit-futures": {
+    "brand_name": "The Trading Pit Futures",
+    "category": "prop",
+    "domain": "thetradingpit.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "the-trading-pit-futures",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "prop/the5ers": {
     "brand_name": "The 5%Ers",
     "category": "prop",
@@ -9614,11 +9761,32 @@
       }
     }
   },
+  "prop/top-one-futures": {
+    "brand_name": "Top One Futures",
+    "category": "prop",
+    "domain": "toponefutures.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "top-one-futures",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "prop/topstep": {
     "brand_name": "Topstep",
     "category": "prop",
     "domain": "topstep.com",
-    "fetched_at": "2026-08-09",
+    "fetched_at": "2026-08-10",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "topstep",
     "source": "website",
@@ -9639,9 +9807,30 @@
     "brand_name": "Tradeday",
     "category": "prop",
     "domain": "tradeday.com",
-    "fetched_at": "2026-08-09",
+    "fetched_at": "2026-08-10",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "tradeday",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/tradeify": {
+    "brand_name": "Tradeify",
+    "category": "prop",
+    "domain": "tradeify.co",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "tradeify",
     "source": "website",
     "variants": {
       "icon": {
@@ -9684,6 +9873,27 @@
     "fetched_at": "2026-08-09",
     "license_note": "official brand mark, fetched via automated waterfall",
     "slug": "uprofit",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "prop/ylos-trading": {
+    "brand_name": "Ylos Trading",
+    "category": "prop",
+    "domain": "ylostrading.com",
+    "fetched_at": "2026-08-10",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ylos-trading",
     "source": "website",
     "variants": {
       "icon": {
