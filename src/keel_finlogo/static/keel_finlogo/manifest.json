@@ -9845,6 +9845,27 @@
       }
     }
   },
+  "prop/traders-launch": {
+    "brand_name": "Traders Launch",
+    "category": "prop",
+    "domain": "",
+    "fetched_at": "2026-08-11",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "traders-launch",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "prop/trueforexfunds": {
     "brand_name": "Trueforexfunds",
     "category": "prop",
