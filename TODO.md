@@ -12,3 +12,8 @@ Nothing open right now. Last release (v0.5.0) shipped cleanly: version-guard CI
 passes, `manifest.json` is in sync with every file on disk, and no TODO/FIXME
 markers or unfinished threads exist in the repo. Add tasks here as soon as new
 work is identified.
+
+### `--direct-url` should short-circuit the logo waterfall
+- **Priority:** medium
+- **Context:** Found while adding the coin and platform categories (2026-09-13). `collect_best()` in `scripts/fetch_logo.py` scores a `--direct-url` candidate against the rest of the waterfall, and any transparent SVG candidate outscores a raster direct URL, even a wrong one. It picked a rainbow ETH diamond, a cropped "BNB CHAIN" banner, FxPro's logo for cTrader, and a mismatched MetaTrader 5 icon over the official files that were passed explicitly; each had to be caught by eye.
+- **Done when:** an explicit `--direct-url` is used as-is (normalised, sized, manifest written) without competing on score, and a candidate the waterfall would have preferred is only reported, not chosen.
