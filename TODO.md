@@ -8,10 +8,7 @@ Guidelines:
 - Note real dependencies explicitly ("Blocked by: ...", "Requires: ...").
 - Delete a task from this file the moment it's done. This file only ever holds what's left.
 
-Nothing open right now. Last release (v0.5.0) shipped cleanly: version-guard CI
-passes, `manifest.json` is in sync with every file on disk, and no TODO/FIXME
-markers or unfinished threads exist in the repo. Add tasks here as soon as new
-work is identified.
+Open work, most important first. Remove an item the moment it is done.
 
 ### `--direct-url` should short-circuit the logo waterfall
 - **Priority:** medium
