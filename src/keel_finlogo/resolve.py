@@ -33,9 +33,10 @@ def resolve_logo(
 ) -> str | None:
     """Return a ``{% static %}`` URL for the closest available size, or ``None``.
 
-    ``category`` is one of ``forex|prop|crypto|binary|regulator``. ``variant``
-    is ``icon`` (square mark) or ``wordmark`` (wide logo). Set ``prefer_svg=True``
-    to get the vector file when this brand's source was a vector.
+    ``category`` is one of ``forex|prop|crypto|binary|regulator|coin|platform``.
+    ``variant`` is ``icon`` (square mark) or ``wordmark`` (wide logo). Set
+    ``prefer_svg=True`` to get the vector file when this brand's source was a
+    vector.
     """
     from django.templatetags.static import static
 

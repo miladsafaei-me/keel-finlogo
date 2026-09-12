@@ -12,7 +12,7 @@ logo crawler.
   PNG + WebP at several sizes (`icon-{64,128,256,512}` and
   `wordmark-{256,512}`), plus `icon.svg`/`wordmark.svg` when the source was a
   vector. `<category>` is one of `forex`, `prop`, `crypto`, `binary`,
-  `regulator`.
+  `regulator`, `coin`, `platform`.
 - `src/keel_finlogo/static/keel_finlogo/flags/<iso2>/` — `w{40,80,160,320,640}.webp`
   + `flag.svg` for every ISO-3166-1 alpha-2 country code, sourced from
   flagcdn.com.

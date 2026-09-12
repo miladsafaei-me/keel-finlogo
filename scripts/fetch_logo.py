@@ -41,7 +41,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 STATIC_ROOT = REPO_ROOT / "src" / "keel_finlogo" / "static" / "keel_finlogo"
 MANIFEST_PATH = STATIC_ROOT / "manifest.json"
 
-CATEGORIES = ("forex", "prop", "crypto", "binary", "regulator")
+CATEGORIES = ("forex", "prop", "crypto", "binary", "regulator", "coin", "platform")
 
 # Master max-edge each variant is fetched/cleaned at; every configured size is
 # then DERIVED (resize, no re-fetch) from that one clean master.

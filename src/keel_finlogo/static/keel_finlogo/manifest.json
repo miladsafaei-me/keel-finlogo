@@ -289,6 +289,405 @@
       }
     }
   },
+  "coin/ada": {
+    "brand_name": "Cardano",
+    "category": "coin",
+    "domain": "cardano.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ada",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/arb": {
+    "brand_name": "Arbitrum",
+    "category": "coin",
+    "domain": "arbitrum.io",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "arb",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "coin/avax": {
+    "brand_name": "Avalanche",
+    "category": "coin",
+    "domain": "avax.network",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "avax",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/bnb": {
+    "brand_name": "Bnb",
+    "category": "coin",
+    "domain": "bnbchain.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "bnb",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/btc": {
+    "brand_name": "Bitcoin",
+    "category": "coin",
+    "domain": "bitcoin.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "btc",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/doge": {
+    "brand_name": "Dogecoin",
+    "category": "coin",
+    "domain": "dogecoin.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "doge",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/eth": {
+    "brand_name": "Ethereum",
+    "category": "coin",
+    "domain": "ethereum.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "eth",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/hype": {
+    "brand_name": "Hyperliquid",
+    "category": "coin",
+    "domain": "hyperliquid.xyz",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "hype",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "coin/link": {
+    "brand_name": "Chainlink",
+    "category": "coin",
+    "domain": "chain.link",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "link",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/ltc": {
+    "brand_name": "Litecoin",
+    "category": "coin",
+    "domain": "litecoin.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ltc",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/pol": {
+    "brand_name": "Polygon",
+    "category": "coin",
+    "domain": "polygon.technology",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "pol",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/sol": {
+    "brand_name": "Solana",
+    "category": "coin",
+    "domain": "solana.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "sol",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/sui": {
+    "brand_name": "Sui",
+    "category": "coin",
+    "domain": "sui.io",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "sui",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/ton": {
+    "brand_name": "Toncoin",
+    "category": "coin",
+    "domain": "ton.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ton",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/trx": {
+    "brand_name": "Tron",
+    "category": "coin",
+    "domain": "tron.network",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "trx",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/usdc": {
+    "brand_name": "Usd Coin",
+    "category": "coin",
+    "domain": "circle.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "usdc",
+    "source": "wikipedia",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/usdt": {
+    "brand_name": "Tether",
+    "category": "coin",
+    "domain": "tether.to",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "usdt",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/xrp": {
+    "brand_name": "Xrp",
+    "category": "coin",
+    "domain": "xrpl.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "xrp",
+    "source": "simpleicons",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "coin/zec": {
+    "brand_name": "Zcash",
+    "category": "coin",
+    "domain": "z.cash",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "zec",
+    "source": "wikipedia",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "crypto/binance": {
     "brand_name": "Binance",
     "category": "crypto",
@@ -8907,6 +9306,156 @@
         "sizes": [
           64,
           128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/ctrader": {
+    "brand_name": "Ctrader",
+    "category": "platform",
+    "domain": "ctrader.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, Spotware cTrader media kit (spotware.com/company/media-kit)",
+    "slug": "ctrader",
+    "source": "spotware-media-kit",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "wordmark": {
+        "sizes": [
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/metatrader-4": {
+    "brand_name": "Metatrader 4",
+    "category": "platform",
+    "domain": "metatrader4.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "metatrader-4",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/metatrader-5": {
+    "brand_name": "Metatrader 5",
+    "category": "platform",
+    "domain": "metatrader5.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, Wikimedia Commons (CC BY-SA 4.0), verified transparent variant",
+    "slug": "metatrader-5",
+    "source": "wikimedia-direct",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/ninjatrader": {
+    "brand_name": "Ninjatrader",
+    "category": "platform",
+    "domain": "ninjatrader.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "ninjatrader",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      },
+      "wordmark": {
+        "sizes": [
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/telegram": {
+    "brand_name": "Telegram",
+    "category": "platform",
+    "domain": "telegram.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, fetched via automated waterfall",
+    "slug": "telegram",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/tradingview": {
+    "brand_name": "Tradingview",
+    "category": "platform",
+    "domain": "tradingview.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official brand mark, TradingView media kit (s3.tradingview.com/pub/TradingView-media-kit.zip)",
+    "slug": "tradingview",
+    "source": "tradingview-media-kit",
+    "variants": {
+      "icon": {
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "wordmark": {
+        "sizes": [
           256,
           512
         ],

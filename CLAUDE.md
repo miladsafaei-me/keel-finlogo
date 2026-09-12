@@ -11,8 +11,9 @@ Remaining and follow-up work for this project is tracked in [TODO.md](TODO.md), 
 ## What this package is
 
 A **business-blind** static-asset repository: brand logos (forex broker, prop
-firm, crypto exchange, binary-option broker, regulator) and country flags, plus
-a thin `resolve_logo()`/`resolve_flag()` lookup layer. It knows nothing about
+firm, crypto exchange, binary-option broker, regulator, crypto coin, trading
+platform) and country flags, plus a thin `resolve_logo()`/`resolve_flag()`
+lookup layer. It knows nothing about
 any consumer's data model — a logo is addressed by `(category, slug)` only,
 never by a foreign key into someone else's `Platform`/`Broker` table.
 
