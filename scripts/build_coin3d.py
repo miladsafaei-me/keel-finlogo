@@ -23,12 +23,18 @@ A coin whose manifest `icon` carries an SVG is struck from `icon.svg` (`--face-s
 A coin whose `icon` has no SVG is set from its largest `icon-<size>.png` instead
 (`--face-png`): the factory lays a raster mark into the coin's face as a clear-coated
 decal, inset and cut to a circle when the mark is a disc. The manifest's `coin3d`
-variant records which kind of face each coin was made from. Doge is that case today
-only because its `icon` was fetched from dogecoin.com's 300 px raster; Dogecoin Core
-publishes the same mark as a vector (`share/pixmaps/dogecoin256.svg`), and once `icon`
-is re-fetched from it this script needs no change — rerun `--coins doge`. The white "D"
-across the Shiba is part of that official mark, so the coin keeps it. Run with --help
-for the full flag list.
+variant records which kind of face each coin was made from.
+
+Doge is a deliberate exception to the SVG-first rule above, via `FACE_OVERRIDE`.
+`icon.svg` is now Dogecoin Core's official vector (`share/pixmaps/dogecoin256.svg`,
+Expat licence) — the white "D" across the Shiba is part of that official mark, kept on
+purpose — but the vector's `clipPath` plus a translucent overlay layer is not what
+`--face-svg` reproduces faithfully: verified 2026-09-13, it strikes as a near-solid
+black disc with the mark reduced to a sliver at one edge. Until the extruder gains real
+clipPath/opacity support, doge is struck from `coin3d-face.png` instead — a 2048 px
+rasterization of that same vector, applied with `--face-png`, which renders the full
+mark correctly. Re-derive that PNG from `icon.svg` if the vector is ever re-fetched.
+Run with --help for the full flag list.
 """
 
 from __future__ import annotations
@@ -62,6 +68,15 @@ SIZES = (1024, 512)
 # place here, not a guess.
 METAL_OVERRIDE: dict[str, str] = {"xrp": "silver", "hype": "silver"}
 
+# Per-slug override for which face file to strike, for when the manifest's preferred
+# kind (SVG-first) is not what the extruder actually reproduces well. doge's icon.svg
+# is an official vector but its clipPath + translucent overlay layer render as a
+# near-solid black disc through --face-svg (verified 2026-09-13) — see the module
+# docstring. `coin3d-face.png` is a 2048 px rasterization of that same vector, kept
+# beside icon.svg specifically for this strike; it is not one of the published 2-D
+# icon sizes (fetch_logo.py caps those at 512), so it never appears in the manifest.
+FACE_OVERRIDE: dict[str, str] = {"doge": "coin3d-face.png"}
+
 
 def log(msg: str) -> None:
     print(msg, file=sys.stderr, flush=True)
@@ -76,14 +91,21 @@ def load_manifest() -> dict:
 def face_for(slug: str, manifest: dict) -> tuple[str, Path] | None:
     """Return this coin's best mark as ("svg" | "png", path), or None when it has none.
 
-    The manifest is the source of truth, not a bare file check: a stale pre-fix SVG can
-    still be sitting on disk (doge's `icon.svg` is the flat Simple Icons "D" glyph the
-    official raster mark replaced as `icon` — see ENGINE-REVIEW §3.1's known defects),
-    and a coin this repo has already decided has no acceptable vector must not be
-    struck with the mark it was replaced for. Such a coin gets its official raster
-    instead, at the largest size the manifest lists, because the factory magnifies a
-    raster to fill the coin's face and every pixel it starts with shows.
+    `FACE_OVERRIDE` wins first — a slug placed there gets a specific raster file this
+    repo has verified strikes correctly, regardless of what the manifest's `icon`
+    variant otherwise prefers (see doge in the module docstring).
+
+    Absent an override, the manifest is the source of truth, not a bare file check: a
+    stale pre-fix SVG can still be sitting on disk, and a coin this repo has already
+    decided has no acceptable vector must not be struck with the mark it was replaced
+    for. Such a coin gets its official raster instead, at the largest size the manifest
+    lists, because the factory magnifies a raster to fill the coin's face and every
+    pixel it starts with shows.
     """
+    override = FACE_OVERRIDE.get(slug)
+    if override:
+        path = LOGOS_ROOT / slug / override
+        return ("png", path) if path.is_file() else None
     icon = manifest.get(f"coin/{slug}", {}).get("variants", {}).get("icon")
     if not icon:
         return None

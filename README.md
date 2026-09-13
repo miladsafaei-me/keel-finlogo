@@ -121,17 +121,19 @@ python3 scripts/build_coin3d.py --container signalbots-web \
   Bitcoin's B is white on the orange disc, not the coin's metal showing through.
 - **A coin whose `icon` has no SVG is set from its largest `icon-<size>.png`** as a
   clear-coated decal inset in the face, cut to a circle when the mark is a disc.
-  Dogecoin is the one today, and its coin is softer than it needs to be: `icon` was
-  fetched from dogecoin.com's 300 px `doge-logo.png` and magnified to fill the face,
-  but Dogecoin Core publishes the same mark as a vector
-  (`share/pixmaps/dogecoin256.svg` in github.com/dogecoin/dogecoin, Expat licence).
-  Re-fetching `icon` from that vector and re-running `--coins doge` is the fix, never an
-  upscale. The large translucent white "D" across the Shiba's face is part of the
-  official mark (dogecoin.com, the Core app icon and the Core vector all draw it), so a
-  coin keeps it rather than showing an edited trademark.
 - **`METAL_OVERRIDE`** in the script pins the rim metal where `auto` was reviewed and
   read wrong: a near-black mark (`xrp`, `hype`) on a gunmetal coin all but vanishes, so
   those two are silver.
+- **`FACE_OVERRIDE`** in the script pins a specific raster face for a slug whose SVG the
+  extruder cannot strike faithfully. Dogecoin is the one today: `icon.svg` is Dogecoin
+  Core's official vector (`share/pixmaps/dogecoin256.svg` in github.com/dogecoin/dogecoin,
+  Expat licence — the same upright-D layout as dogecoin.com's own mark), but its
+  `clipPath` plus translucent overlay layer strikes through `--face-svg` as a near-solid
+  black disc (verified 2026-09-13). `coin3d-face.png`, a 2048 px rasterization of that
+  same vector kept beside `icon.svg`, is struck with `--face-png` instead and renders the
+  full mark correctly. The large translucent white "D" across the Shiba's face is part of
+  the official mark (dogecoin.com, the Core app icon and the Core vector all draw it), so
+  the coin keeps it rather than showing an edited trademark.
 - **Read every render on a near-white and a near-black ground** before committing, as
   with any other mark.
 

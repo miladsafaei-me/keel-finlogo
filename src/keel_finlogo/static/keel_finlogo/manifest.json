@@ -420,8 +420,8 @@
     "brand_name": "Dogecoin",
     "category": "coin",
     "domain": "dogecoin.com",
-    "fetched_at": "2026-09-12",
-    "license_note": "official dogecoin.com site mark (doge-logo.png) \u2014 the largest official master found (300x300); no larger raster or vector is published",
+    "fetched_at": "2026-09-13",
+    "license_note": "official Dogecoin Core vector (share/pixmaps/dogecoin256.svg), Expat licence, Copyright Bitcoin Core and Dogecoin Core Developers; same upright-D mark as dogecoin.com's doge-logo.png at full vector resolution",
     "slug": "doge",
     "source": "direct-url",
     "variants": {
@@ -443,7 +443,7 @@
           256,
           512
         ],
-        "svg": false,
+        "svg": true,
         "webp": true
       }
     }
