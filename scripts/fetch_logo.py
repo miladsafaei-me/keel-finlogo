@@ -44,9 +44,16 @@ MANIFEST_PATH = STATIC_ROOT / "manifest.json"
 CATEGORIES = ("forex", "prop", "crypto", "binary", "regulator", "coin", "platform")
 
 # Master max-edge each variant is fetched/cleaned at; every configured size is
-# then DERIVED (resize, no re-fetch) from that one clean master.
-VARIANT_MASTER_EDGE = {"icon": 1024, "wordmark": 1024}
-VARIANT_SIZES = {"icon": (64, 128, 256, 512), "wordmark": (256, 512)}
+# then DERIVED (resize, no re-fetch) from that one clean master. "icon-light" is
+# the same square-mark slot as "icon" — a mono brand (single-ink, no colour of
+# its own to fall back on, e.g. TradingView, XRP, HYPE) ships both: "icon" is
+# its dark ink for a light ground, "icon-light" the light ink for a dark
+# ground. A --direct-url run per ink keeps each exactly as fetched (see
+# fetch_direct_candidate) rather than deriving one from the other by inverting
+# colours, which would silently drift from the brand's own light-ink artwork.
+VARIANT_MASTER_EDGE = {"icon": 1024, "wordmark": 1024, "icon-light": 1024}
+VARIANT_SIZES = {"icon": (64, 128, 256, 512), "wordmark": (256, 512), "icon-light": (64, 128, 256, 512)}
+ICON_LIKE_VARIANTS = ("icon", "icon-light")
 
 BROWSER_UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -169,11 +176,12 @@ class Candidate:
         return self.dims is not None and self.min_edge >= MIN_EDGE
 
     def score(self, want_variant: str) -> float:
+        want_icon = want_variant in ICON_LIKE_VARIANTS
         fits = wrong = False
         if want_variant and self.variant:
-            fits = (want_variant == "icon" and self.variant in ("icon", "symbol")) or (
+            fits = (want_icon and self.variant in ("icon", "symbol")) or (
                 want_variant == "wordmark" and self.variant == "logo")
-            wrong = (want_variant == "icon" and self.variant == "logo") or (
+            wrong = (want_icon and self.variant == "logo") or (
                 want_variant == "wordmark" and self.variant in ("icon", "symbol"))
 
         s = 0.0
@@ -187,7 +195,7 @@ class Candidate:
                 s -= (128 - self.min_edge) * 1.5
 
         aspect = (max(self.dims) / min(self.dims)) if (self.dims and min(self.dims)) else 1.0
-        if want_variant == "icon":
+        if want_icon:
             if fits:
                 s += 250
             elif wrong:
@@ -332,10 +340,8 @@ def src_website(domain: str):
         yield icon_url, "icon"
 
 
-def build_source_plan(brand, slug, domain, keys, direct_url):
+def build_source_plan(brand, slug, domain, keys):
     plan = []
-    if direct_url:
-        plan.append(("direct-url", iter([(direct_url, "")])))
     plan.append(("brandfetch", src_brandfetch(domain, keys.get("BRANDFETCH_API_KEY", ""))))
     plan.append(("wikipedia", src_wikipedia(brand)))
     plan.append(("logo.dev", src_logodev(domain, keys.get("LOGO_DEV_ACCESS_TOKEN", ""))))
@@ -345,6 +351,37 @@ def build_source_plan(brand, slug, domain, keys, direct_url):
     plan.append(("getlogo.dev", src_getlogodev(domain, keys.get("GETLOGO_DEV_TOKEN", ""))))
     plan.append(("google-favicon", src_google_favicon(domain)))
     return plan
+
+
+def fetch_direct_candidate(url: str):
+    """Fetch and validate an explicit ``--direct-url`` image.
+
+    A direct URL is an operator's explicit pick, found by eye (a press kit, a
+    Wikimedia asset page) — it is used as-is, never scored against the
+    waterfall. Scoring it used to let a technically "better" candidate (a
+    transparent SVG, which always outscores a raster) silently override a
+    human's verified choice: it picked a rainbow ETH diamond, a cropped "BNB
+    CHAIN" banner, FxPro's logo for cTrader, and a mismatched MetaTrader 5 icon
+    over the official files that were passed explicitly (TODO.md, closed
+    2026-09-13). Returns ``None`` when the URL does not yield a usable image.
+
+    A plain local path (or ``file://`` path) is read straight off disk rather
+    than fetched — the reproducible way to hand this pipeline a mono-ink
+    sibling derived from an official master (e.g. the same path data recolored
+    for the opposite ground), which never had a URL of its own to begin with.
+    """
+    if url.startswith("file://"):
+        path = Path(url[len("file://"):])
+    else:
+        path = Path(url)
+    if not url.startswith(("http://", "https://")) and path.is_file():
+        data = path.read_bytes()
+    else:
+        data = http_get(url)
+    if not data or len(data) < 120:
+        return None
+    cand = Candidate(data, "direct-url")
+    return cand if cand.valid else None
 
 
 def collect_best(plan, want_variant, *, max_per_source=6):
@@ -368,7 +405,7 @@ def collect_best(plan, want_variant, *, max_per_source=6):
             log(f"      ✓ {cand.describe()}")
             if best is None or cand.score(want_variant) > best.score(want_variant):
                 best = cand
-            wrong = {"icon": "logo", "wordmark": "symbol"}.get(want_variant)
+            wrong = {"icon": "logo", "icon-light": "logo", "wordmark": "symbol"}.get(want_variant)
             if cand.is_svg and cand.transparent and cand.variant != wrong:
                 excellent = True
                 break
@@ -479,7 +516,7 @@ def save_manifest(data: dict) -> None:
     MANIFEST_PATH.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
-def update_manifest(*, category, slug, brand_name, domain, source, license_note, variant, sizes, has_svg):
+def update_manifest(*, category, slug, brand_name, domain, source, license_note, variant, sizes, has_svg, ink):
     import fcntl
 
     MANIFEST_LOCK_PATH.touch(exist_ok=True)
@@ -497,7 +534,7 @@ def update_manifest(*, category, slug, brand_name, domain, source, license_note,
             entry["source"] = source
             entry["license_note"] = license_note
             entry["fetched_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            entry["variants"][variant] = {"sizes": sorted(sizes), "svg": has_svg, "webp": True}
+            entry["variants"][variant] = {"sizes": sorted(sizes), "svg": has_svg, "webp": True, "ink": ink}
             data[key] = entry
             save_manifest(data)
         finally:
@@ -513,10 +550,19 @@ def main() -> int:
     ap.add_argument("--domain", help="Official domain override (recommended).")
     ap.add_argument("--slug", help="Output slug (default: slugified brand).")
     ap.add_argument("--direct-url", help="Explicit image URL to try first.")
-    ap.add_argument("--variant", choices=["icon", "wordmark"], default="icon")
+    ap.add_argument("--variant", choices=["icon", "wordmark", "icon-light"], default="icon")
     ap.add_argument("--bg", choices=["auto", "magick", "none"], default="auto")
     ap.add_argument("--no-webp", action="store_true")
     ap.add_argument("--no-svg", action="store_true")
+    ap.add_argument(
+        "--ink", choices=["color", "mono"], default="color",
+        help=(
+            "Manifest tag for this variant: 'color' (default) for a full-colour "
+            "mark, 'mono' for a single-ink brand mark — fetch its dark ink as "
+            "--variant icon and its light ink as a second run with "
+            "--variant icon-light --ink mono."
+        ),
+    )
     ap.add_argument(
         "--license-note", default="official brand mark, fetched via automated waterfall",
     )
@@ -551,15 +597,34 @@ def main() -> int:
     if not domain:
         log("  ! No domain — brandfetch/logo.dev/unavatar/website/favicon are skipped. Pass --domain.")
 
-    plan = build_source_plan(brand_for_search, slug, domain, keys, args.direct_url)
-    best = collect_best(plan, args.variant)
-    if best is None:
-        log("\n✗ No usable logo found from any source.")
-        log("  Next: WebSearch for an official PNG/SVG (press kit, Wikipedia) and re-run with --direct-url.")
-        print(json.dumps({"ok": False, "slug": slug, "domain": domain}))
-        return 2
+    direct_candidate = None
+    if args.direct_url:
+        direct_candidate = fetch_direct_candidate(args.direct_url)
+        if direct_candidate is None:
+            log(f"\n✗ --direct-url did not yield a usable image: {args.direct_url}")
+            print(json.dumps({"ok": False, "slug": slug, "domain": domain, "direct_url": args.direct_url}))
+            return 2
 
-    log(f"\n★ Winner — {best.describe()}  (score {best.score(args.variant):.0f})")
+    plan = build_source_plan(brand_for_search, slug, domain, keys)
+    waterfall_best = collect_best(plan, args.variant)
+
+    if direct_candidate is not None:
+        best = direct_candidate
+        log(f"\n★ Using --direct-url as-is — {best.describe()}  (score {best.score(args.variant):.0f})")
+        if waterfall_best is not None and waterfall_best.score(args.variant) > best.score(args.variant):
+            log(
+                f"  · waterfall would have preferred {waterfall_best.describe()} "
+                f"(score {waterfall_best.score(args.variant):.0f}) — reported only, "
+                "not used, because --direct-url was given"
+            )
+    else:
+        best = waterfall_best
+        if best is None:
+            log("\n✗ No usable logo found from any source.")
+            log("  Next: WebSearch for an official PNG/SVG (press kit, Wikipedia) and re-run with --direct-url.")
+            print(json.dumps({"ok": False, "slug": slug, "domain": domain}))
+            return 2
+        log(f"\n★ Winner — {best.describe()}  (score {best.score(args.variant):.0f})")
 
     out_dir = STATIC_ROOT / "logos" / args.category / slug
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -602,7 +667,7 @@ def main() -> int:
     update_manifest(
         category=args.category, slug=slug, brand_name=brand_for_search, domain=domain,
         source=best.source, license_note=args.license_note, variant=args.variant,
-        sizes=sizes_written, has_svg=bool(svg_path),
+        sizes=sizes_written, has_svg=bool(svg_path), ink=args.ink,
     )
 
     log("\n✓ Done:")

@@ -12,7 +12,27 @@ logo crawler.
   PNG + WebP at several sizes (`icon-{64,128,256,512}` and
   `wordmark-{256,512}`), plus `icon.svg`/`wordmark.svg` when the source was a
   vector. `<category>` is one of `forex`, `prop`, `crypto`, `binary`,
-  `regulator`, `coin`, `platform`.
+  `regulator`, `coin`, `platform`. `coin` covers a cryptocurrency's own symbol
+  (`btc`, `eth`, `xrp`, `sol`, `bnb`, `doge`, `zec`, `sui`, `hype`, …) —
+  distinct from `crypto`, which is exchange brands (Binance, Coinbase, …).
+  `platform` covers trading platforms, terminals, chat apps, browsers and app
+  stores (`metatrader-4`/`-5`, `tradingview`, `ctrader`, `ninjatrader`,
+  `telegram`, `dxtrade`, `tradelocker`, `match-trader`, `rithmic`, `tradovate`,
+  `bookmap`, `whatsapp`, `discord`, `chrome`, `firefox`, `edge`, `app-store`,
+  `google-play`, …) — anything a signal or a broker gets *delivered through*,
+  never a broker/exchange/prop-firm itself.
+- **A mono brand ships a third variant, `icon-light`.** Most brand marks are
+  already full colour and read fine on both a light and a dark ground (their
+  colour never coincides with either canvas extreme). A handful are a single
+  ink whose only published colour collides with one of our two standard
+  grounds — TradingView (white-only), XRP and Hyperliquid (each a single dark
+  or light glyph), TradeLocker (a solid black mark) — so each ships **two**
+  square-mark variants: `icon` is the brand's dark ink, sized for a light
+  ground, and `icon-light` is its light ink (the same official mark, or the
+  same path data recoloured, never a different design), sized for a dark
+  ground. `manifest.json` tags every variant `"ink": "color"` or `"ink":
+  "mono"` so a caller can tell which grounds a mark actually needs versus
+  which one is merely swapped by convention.
 - `src/keel_finlogo/static/keel_finlogo/flags/<iso2>/` — `w{40,80,160,320,640}.webp`
   + `flag.svg` for every ISO-3166-1 alpha-2 country code, sourced from
   flagcdn.com.
@@ -47,16 +67,37 @@ Requires the `fetch` extra: `pip install -e '.[fetch]'` from the repo root.
 python3 scripts/fetch_logo.py "Exness" --category forex --domain exness.com
 python3 scripts/fetch_logo.py "Exness" --category forex --domain exness.com --variant wordmark
 python3 scripts/fetch_flag.py            # every country (idempotent, re-run to refresh)
+
+# A mono brand: fetch its dark ink, then its light ink, from two direct URLs
+# (or two local files — see below) found by eye, one per official ink.
+python3 scripts/fetch_logo.py "TradeLocker" --category platform --domain tradelocker.com \
+  --direct-url https://tradelocker.com/wp-content/uploads/2023/04/Icon-3.png --ink mono
+python3 scripts/fetch_logo.py "TradeLocker" --category platform --domain tradelocker.com \
+  --direct-url /path/to/tradelocker-icon-light.png --variant icon-light --ink mono
 ```
 
 `fetch_logo.py` walks a scored source waterfall (Brandfetch API when
 `BRANDFETCH_API_KEY` is set, Wikipedia, logo.dev, unavatar.io, the brand's own
-site, Simple Icons, Google favicon — plus `--direct-url` for a manually found
-image), derives every configured size from one clean master, and updates
-`manifest.json`. **Always visually inspect the written PNG** before committing
-— a script can confirm "transparent, 512×512" but not "this is actually the
-current, correct logo." See `keel-kit/skills/seo-logo/SKILL.md` for the full
-verification checklist this tool is adapted from.
+site, Simple Icons, Google favicon) and picks the best-scoring candidate.
+**`--direct-url` never competes in that scoring** — an operator who found the
+official file by eye (a press kit, a Wikimedia asset page, the brand's own
+site source) gets it used exactly as passed, normalised into the usual sizes;
+if the waterfall would have preferred a different candidate, that is logged as
+a note, never substituted (closed 2026-09-13: a transparent SVG always
+outscored a correct raster, so the waterfall kept overruling explicit
+`--direct-url` picks with the wrong logo — a rainbow ETH diamond, a cropped
+"BNB CHAIN" banner, FxPro's mark for cTrader, a mismatched MetaTrader 5 icon).
+`--direct-url` also accepts a local file path (or `file://` path) instead of a
+URL — the way to hand the pipeline a derived asset (a mono mark's ink inverted
+from the same official path data) that never had a URL of its own.
+
+`--variant icon-light --ink mono` is the second half of a mono pair (see
+"What it ships" above); pass `--ink color` (the default) for an ordinary
+full-colour mark. **Always visually inspect the written PNG on both a
+near-black and a near-white ground** before committing — a script can confirm
+"transparent, 512×512" but not "this is actually the current, correct logo,
+and it reads on both grounds." See `keel-kit/skills/seo-logo/SKILL.md` for the
+full verification checklist this tool is adapted from.
 
 ## Release
 

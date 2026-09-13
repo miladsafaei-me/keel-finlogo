@@ -361,7 +361,17 @@
     "slug": "bnb",
     "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -382,7 +392,17 @@
     "slug": "btc",
     "source": "simpleicons",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -399,18 +419,19 @@
     "category": "coin",
     "domain": "dogecoin.com",
     "fetched_at": "2026-09-12",
-    "license_note": "official brand mark, fetched via automated waterfall",
+    "license_note": "official dogecoin.com site mark (doge-logo.png) \u2014 the largest official master found (300x300); no larger raster or vector is published",
     "slug": "doge",
-    "source": "simpleicons",
+    "source": "direct-url",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
           256,
           512
         ],
-        "svg": true,
+        "svg": false,
         "webp": true
       }
     }
@@ -424,7 +445,17 @@
     "slug": "eth",
     "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -441,18 +472,39 @@
     "category": "coin",
     "domain": "hyperliquid.xyz",
     "fetched_at": "2026-09-12",
-    "license_note": "official brand mark, fetched via automated waterfall",
+    "license_note": "same official Hyperliquid brand kit, Hyperliquid_Blob_Light.svg \u2014 light ink for dark grounds",
     "slug": "hype",
-    "source": "website",
+    "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "mono",
         "sizes": [
           64,
           128,
           256,
           512
         ],
-        "svg": false,
+        "svg": true,
+        "webp": true
+      },
+      "icon-light": {
+        "ink": "mono",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
         "webp": true
       }
     }
@@ -525,11 +577,21 @@
     "category": "coin",
     "domain": "solana.com",
     "fetched_at": "2026-09-12",
-    "license_note": "official brand mark, fetched via automated waterfall",
+    "license_note": "official Solana Foundation logomark (solana.com/branding), the brand's gradient mark",
     "slug": "sol",
-    "source": "simpleicons",
+    "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -550,7 +612,17 @@
     "slug": "sui",
     "source": "simpleicons",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -651,11 +723,32 @@
     "category": "coin",
     "domain": "xrpl.org",
     "fetched_at": "2026-09-12",
-    "license_note": "official brand mark, fetched via automated waterfall",
+    "license_note": "same official xrpl.org mark, recolored white by keel-finlogo (identical path data) \u2014 light ink for dark grounds",
     "slug": "xrp",
-    "source": "simpleicons",
+    "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "mono",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "icon-light": {
+        "ink": "mono",
         "sizes": [
           64,
           128,
@@ -676,7 +769,17 @@
     "slug": "zec",
     "source": "wikipedia",
     "variants": {
+      "coin3d": {
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9314,6 +9417,72 @@
       }
     }
   },
+  "platform/app-store": {
+    "brand_name": "App Store",
+    "category": "platform",
+    "domain": "apple.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Apple App Store icon, Wikimedia Commons copy of the current iOS glyph",
+    "slug": "app-store",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/bookmap": {
+    "brand_name": "Bookmap",
+    "category": "platform",
+    "domain": "bookmap.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Bookmap web-app icon (bookmap.com manifest.json, icon-512x512.png)",
+    "slug": "bookmap",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/chrome": {
+    "brand_name": "Chrome",
+    "category": "platform",
+    "domain": "google.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Google Chrome icon, first-party copy already vetted in the signalbots repo (backend/core/static/img/browsers/chrome.svg)",
+    "slug": "chrome",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "platform/ctrader": {
     "brand_name": "Ctrader",
     "category": "platform",
@@ -9324,6 +9493,7 @@
     "source": "spotware-media-kit",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9334,11 +9504,144 @@
         "webp": true
       },
       "wordmark": {
+        "ink": "color",
         "sizes": [
           256,
           512
         ],
         "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/discord": {
+    "brand_name": "Discord",
+    "category": "platform",
+    "domain": "discord.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Discord brand mark (discord.com/branding, Discord-Symbol-Blurple.svg)",
+    "slug": "discord",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/dxtrade": {
+    "brand_name": "Dxtrade",
+    "category": "platform",
+    "domain": "dx.trade",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Devexperts DXtrade site mark (dx.trade favicon)",
+    "slug": "dxtrade",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/edge": {
+    "brand_name": "Edge",
+    "category": "platform",
+    "domain": "microsoft.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Microsoft Edge icon, first-party copy already vetted in the signalbots repo (backend/core/static/img/browsers/edge.svg)",
+    "slug": "edge",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/firefox": {
+    "brand_name": "Firefox",
+    "category": "platform",
+    "domain": "mozilla.org",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Mozilla Firefox icon, first-party copy already vetted in the signalbots repo (backend/core/static/img/browsers/firefox.svg)",
+    "slug": "firefox",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/google-play": {
+    "brand_name": "Google Play",
+    "category": "platform",
+    "domain": "play.google.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Google Play icon, Wikimedia Commons copy of the current (2022) triangle mark",
+    "slug": "google-play",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/match-trader": {
+    "brand_name": "Match Trader",
+    "category": "platform",
+    "domain": "match-trader.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Match-Trade Technologies site mark (match-trader.com favicon)",
+    "slug": "match-trader",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
         "webp": true
       }
     }
@@ -9353,6 +9656,7 @@
     "source": "website",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9374,6 +9678,7 @@
     "source": "wikimedia-direct",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9395,6 +9700,7 @@
     "source": "direct-url",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9405,11 +9711,34 @@
         "webp": true
       },
       "wordmark": {
+        "ink": "color",
         "sizes": [
           256,
           512
         ],
         "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/rithmic": {
+    "brand_name": "Rithmic",
+    "category": "platform",
+    "domain": "rithmic.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Rithmic site mark (rithmic.com favicon, matches the og-image lockup)",
+    "slug": "rithmic",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
         "webp": true
       }
     }
@@ -9424,6 +9753,7 @@
     "source": "website",
     "variants": {
       "icon": {
+        "ink": "color",
         "sizes": [
           64,
           128,
@@ -9435,16 +9765,61 @@
       }
     }
   },
+  "platform/tradelocker": {
+    "brand_name": "Tradelocker",
+    "category": "platform",
+    "domain": "tradelocker.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "same official mark, colours inverted by keel-finlogo (white ring, cut-through bars) \u2014 light ink for dark grounds",
+    "slug": "tradelocker",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "mono",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      },
+      "icon-light": {
+        "ink": "mono",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "platform/tradingview": {
     "brand_name": "Tradingview",
     "category": "platform",
     "domain": "tradingview.com",
     "fetched_at": "2026-09-12",
-    "license_note": "official brand mark, TradingView media kit (s3.tradingview.com/pub/TradingView-media-kit.zip)",
+    "license_note": "same official media-kit glyph, background swatch removed, white ink for dark grounds",
     "slug": "tradingview",
-    "source": "tradingview-media-kit",
+    "source": "direct-url",
     "variants": {
       "icon": {
+        "ink": "mono",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      },
+      "icon-light": {
+        "ink": "mono",
         "sizes": [
           64,
           128,
@@ -9455,7 +9830,52 @@
         "webp": true
       },
       "wordmark": {
+        "ink": "color",
         "sizes": [
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
+  "platform/tradovate": {
+    "brand_name": "Tradovate",
+    "category": "platform",
+    "domain": "tradovate.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official Tradovate App Store icon (Tradovate, LLC), background trimmed",
+    "slug": "tradovate",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/whatsapp": {
+    "brand_name": "Whatsapp",
+    "category": "platform",
+    "domain": "whatsapp.com",
+    "fetched_at": "2026-09-12",
+    "license_note": "official WhatsApp icon, Wikimedia Commons copy of the current Meta brand mark",
+    "slug": "whatsapp",
+    "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
           256,
           512
         ],
