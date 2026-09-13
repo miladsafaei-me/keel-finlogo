@@ -33,6 +33,10 @@ logo crawler.
   ground. `manifest.json` tags every variant `"ink": "color"` or `"ink":
   "mono"` so a caller can tell which grounds a mark actually needs versus
   which one is merely swapped by convention.
+- **Each landing coin also ships `coin3d-{512,1024}.png`** (`btc`, `eth`, `xrp`,
+  `sol`, `bnb`, `doge`, `zec`, `sui`, `hype`): the coin's own mark on a minted 3D coin,
+  rendered on the landing-cover stage's camera, recorded as the `coin3d` variant with
+  `"face": "svg"` or `"face": "png"` (see "Branded 3D coins" below).
 - `src/keel_finlogo/static/keel_finlogo/flags/<iso2>/` — `w{40,80,160,320,640}.webp`
   + `flag.svg` for every ISO-3166-1 alpha-2 country code, sourced from
   flagcdn.com.
@@ -98,6 +102,38 @@ near-black and a near-white ground** before committing — a script can confirm
 "transparent, 512×512" but not "this is actually the current, correct logo,
 and it reads on both grounds." See `keel-kit/skills/seo-logo/SKILL.md` for the
 full verification checklist this tool is adapted from.
+
+## Branded 3D coins
+
+`scripts/build_coin3d.py` renders each landing coin's `coin3d` variant through the
+keel-visuals object factory (`scripts/build_factory_objects.py coin`), which owns the
+geometry, the materials and the camera; this repo decides only which mark goes on which
+coin, and keeps the result beside the brand it belongs to.
+
+```bash
+python3 scripts/build_coin3d.py --container signalbots-web \
+  --factory-script /path/to/keel-visuals/scripts/build_factory_objects.py [--coins btc doge]
+```
+
+- **A coin whose manifest `icon` has an SVG is struck from `icon.svg`.** The mark's
+  shapes stand up out of the face in its own colours, and a mark that is a disc of its
+  own has its knockouts filled with white enamel, the way the brand prints them:
+  Bitcoin's B is white on the orange disc, not the coin's metal showing through.
+- **A coin whose `icon` has no SVG is set from its largest `icon-<size>.png`** as a
+  clear-coated decal inset in the face, cut to a circle when the mark is a disc.
+  Dogecoin is the one today, and its coin is softer than it needs to be: `icon` was
+  fetched from dogecoin.com's 300 px `doge-logo.png` and magnified to fill the face,
+  but Dogecoin Core publishes the same mark as a vector
+  (`share/pixmaps/dogecoin256.svg` in github.com/dogecoin/dogecoin, Expat licence).
+  Re-fetching `icon` from that vector and re-running `--coins doge` is the fix, never an
+  upscale. The large translucent white "D" across the Shiba's face is part of the
+  official mark (dogecoin.com, the Core app icon and the Core vector all draw it), so a
+  coin keeps it rather than showing an edited trademark.
+- **`METAL_OVERRIDE`** in the script pins the rim metal where `auto` was reviewed and
+  read wrong: a near-black mark (`xrp`, `hype`) on a gunmetal coin all but vanishes, so
+  those two are silver.
+- **Read every render on a near-white and a near-black ground** before committing, as
+  with any other mark.
 
 ## Release
 

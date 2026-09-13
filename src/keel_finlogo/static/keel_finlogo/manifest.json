@@ -362,6 +362,7 @@
     "source": "direct-url",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -393,6 +394,7 @@
     "source": "simpleicons",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -423,6 +425,16 @@
     "slug": "doge",
     "source": "direct-url",
     "variants": {
+      "coin3d": {
+        "face": "png",
+        "ink": "color",
+        "sizes": [
+          512,
+          1024
+        ],
+        "svg": false,
+        "webp": false
+      },
       "icon": {
         "ink": "color",
         "sizes": [
@@ -446,6 +458,7 @@
     "source": "direct-url",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -477,6 +490,7 @@
     "source": "direct-url",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -582,6 +596,7 @@
     "source": "direct-url",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -613,6 +628,7 @@
     "source": "simpleicons",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -728,6 +744,7 @@
     "source": "direct-url",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,
@@ -770,6 +787,7 @@
     "source": "wikipedia",
     "variants": {
       "coin3d": {
+        "face": "svg",
         "ink": "color",
         "sizes": [
           512,

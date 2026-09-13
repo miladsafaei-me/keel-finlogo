@@ -19,9 +19,16 @@ the factory script, its `_common.py` and its vendored `factory/` (three.js + the
 in once, runs `coin` for every requested slug, and copies each PNG back out — the same
 copy-in/run/copy-out recipe the keel-visuals README documents for `render`.
 
-A coin with no vector mark is skipped, not force-fed a raster: the `coin` command only
-ever extrudes SVG paths, it has no raster-input path, and adding one would be a
-keel-visuals change, not a keel-finlogo one. Run with --help for the full flag list.
+A coin whose manifest `icon` carries an SVG is struck from `icon.svg` (`--face-svg`).
+A coin whose `icon` has no SVG is set from its largest `icon-<size>.png` instead
+(`--face-png`): the factory lays a raster mark into the coin's face as a clear-coated
+decal, inset and cut to a circle when the mark is a disc. The manifest's `coin3d`
+variant records which kind of face each coin was made from. Doge is that case today
+only because its `icon` was fetched from dogecoin.com's 300 px raster; Dogecoin Core
+publishes the same mark as a vector (`share/pixmaps/dogecoin256.svg`), and once `icon`
+is re-fetched from it this script needs no change — rerun `--coins doge`. The white "D"
+across the Shiba is part of that official mark, so the coin keeps it. Run with --help
+for the full flag list.
 """
 
 from __future__ import annotations
@@ -66,20 +73,28 @@ def load_manifest() -> dict:
     return {}
 
 
-def face_svg_for(slug: str, manifest: dict) -> Path | None:
-    """Return this coin's best vector mark, or None when there genuinely is none.
+def face_for(slug: str, manifest: dict) -> tuple[str, Path] | None:
+    """Return this coin's best mark as ("svg" | "png", path), or None when it has none.
 
-    The manifest's `variants.icon.svg` flag is the source of truth, not a bare file
-    check: a stale pre-fix SVG can still be sitting on disk (doge's `icon.svg` is the
-    flat Simple Icons "D" glyph the official raster mark replaced as `icon` — see
-    ENGINE-REVIEW §3.1's known defects), and a coin this repo has already decided has
-    no acceptable vector must not be struck with the mark it was replaced for.
+    The manifest is the source of truth, not a bare file check: a stale pre-fix SVG can
+    still be sitting on disk (doge's `icon.svg` is the flat Simple Icons "D" glyph the
+    official raster mark replaced as `icon` — see ENGINE-REVIEW §3.1's known defects),
+    and a coin this repo has already decided has no acceptable vector must not be
+    struck with the mark it was replaced for. Such a coin gets its official raster
+    instead, at the largest size the manifest lists, because the factory magnifies a
+    raster to fill the coin's face and every pixel it starts with shows.
     """
-    entry = manifest.get(f"coin/{slug}")
-    if not entry or not entry.get("variants", {}).get("icon", {}).get("svg"):
+    icon = manifest.get(f"coin/{slug}", {}).get("variants", {}).get("icon")
+    if not icon:
         return None
-    path = LOGOS_ROOT / slug / "icon.svg"
-    return path if path.is_file() else None
+    if icon.get("svg"):
+        path = LOGOS_ROOT / slug / "icon.svg"
+        return ("svg", path) if path.is_file() else None
+    for size in sorted(icon.get("sizes", []), reverse=True):
+        path = LOGOS_ROOT / slug / f"icon-{size}.png"
+        if path.is_file():
+            return "png", path
+    return None
 
 
 class Runner:
@@ -109,23 +124,25 @@ class Runner:
             f"{self.container}:{self.remote_root}/scripts/factory",
         ])
 
-    def coin(self, slug: str, face_svg: Path, out: Path, size: int, metal: str) -> dict:
+    def coin(self, slug: str, face: tuple[str, Path], out: Path, size: int, metal: str) -> dict:
+        kind, face_path = face
+        flag = f"--face-{kind}"
         out.parent.mkdir(parents=True, exist_ok=True)
         if self.container:
-            remote_face = f"{self.remote_root}/faces/{slug}.svg"
+            remote_face = f"{self.remote_root}/faces/{slug}.{kind}"
             remote_out = f"{self.remote_root}/out/{slug}-{size}.png"
-            self._run(["podman", "cp", str(face_svg), f"{self.container}:{remote_face}"])
+            self._run(["podman", "cp", str(face_path), f"{self.container}:{remote_face}"])
             result = self._run([
                 "podman", "exec", "-w", f"{self.remote_root}/scripts", self.container,
                 "python3", "build_factory_objects.py", "coin",
-                "--face-svg", f"../faces/{slug}.svg", "--out", f"../out/{slug}-{size}.png",
+                flag, f"../faces/{slug}.{kind}", "--out", f"../out/{slug}-{size}.png",
                 "--size", str(size), "--metal", metal,
             ])
             self._run(["podman", "cp", f"{self.container}:{remote_out}", str(out)])
         else:
             result = self._run([
                 sys.executable, str(self.factory_script), "coin",
-                "--face-svg", str(face_svg), "--out", str(out),
+                flag, str(face_path), "--out", str(out),
                 "--size", str(size), "--metal", metal,
             ])
         return json.loads(result.stdout)
@@ -141,6 +158,8 @@ def update_manifest(built: dict[str, dict]) -> None:
     Only the `variants.coin3d` key is touched — `brand_name`/`source`/`fetched_at`/
     `license_note` describe the 2-D mark's own provenance and stay untouched, since the
     3-D render adds no new source, it re-strikes the mark this repo already fetched.
+    `face` says whether it was struck from the vector or set from the raster, because
+    a raster coin is softer and a caller choosing a hero size should know.
     Wrapped in the same flock `fetch_logo.py` uses, so this can run alongside it.
     """
     if not built:
@@ -155,6 +174,7 @@ def update_manifest(built: dict[str, dict]) -> None:
                 entry = data[key]
                 entry["variants"]["coin3d"] = {
                     "sizes": sorted(SIZES), "svg": False, "webp": False, "ink": "color",
+                    "face": built[slug]["face"],
                 }
             MANIFEST_PATH.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
         finally:
@@ -184,13 +204,9 @@ def main() -> int:
     failed: dict[str, str] = {}
 
     for slug in args.coins:
-        face_svg = face_svg_for(slug, manifest)
-        if face_svg is None:
-            reason = (
-                f"coin/{slug} carries no vector icon in the manifest — the factory's coin "
-                "command only extrudes an SVG face and has no raster-input path, so there is "
-                "no way to strike one without a keel-visuals change"
-            )
+        face = face_for(slug, manifest)
+        if face is None:
+            reason = f"coin/{slug} has no icon in the manifest, neither an SVG nor a PNG on disk, to put on a coin"
             log(f"· {slug}: skipped — {reason}")
             skipped[slug] = reason
             continue
@@ -200,15 +216,15 @@ def main() -> int:
         try:
             for size in SIZES:
                 out = LOGOS_ROOT / slug / f"coin3d-{size}.png"
-                reports[size] = runner.coin(slug, face_svg, out, size, metal)
-                log(f"  {slug} @ {size}px: metal={reports[size]['metal']} dominant={reports[size]['face']['dominant']}")
+                reports[size] = runner.coin(slug, face, out, size, metal)
+                log(f"  {slug} @ {size}px from {face[0]}: metal={reports[size]['metal']} face={reports[size]['face']}")
         except subprocess.CalledProcessError as exc:  # one coin's failure should not sink the batch
             detail = exc.stderr.strip() if exc.stderr else str(exc)
             failed[slug] = detail
             log(f"✗ {slug}: {detail}")
             continue
 
-        built[slug] = {"metal": reports[SIZES[0]]["metal"], "sizes": sorted(SIZES)}
+        built[slug] = {"metal": reports[SIZES[0]]["metal"], "face": face[0], "sizes": sorted(SIZES)}
         log(f"✓ {slug}: coin3d-{{{','.join(str(s) for s in sorted(SIZES))}}}.png")
 
     runner.cleanup()
