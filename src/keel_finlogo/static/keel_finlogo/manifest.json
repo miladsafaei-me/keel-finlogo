@@ -212,9 +212,9 @@
     "category": "binary",
     "domain": "quotex.io",
     "fetched_at": "2026-08-09",
-    "license_note": "official brand mark, fetched via automated waterfall",
+    "license_note": "official brand mark, red on white; replaces the dark favicon tile",
     "slug": "quotex",
-    "source": "google-favicon",
+    "source": "owner choice 2026-10-26: red Quotex mark on a white tile (vector, from autotradingbots.ai quotex-logo.svg)",
     "variants": {
       "icon": {
         "sizes": [
@@ -223,7 +223,7 @@
           256,
           512
         ],
-        "svg": false,
+        "svg": true,
         "webp": true
       }
     }
