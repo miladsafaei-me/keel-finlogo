@@ -9457,6 +9457,28 @@
       }
     }
   },
+  "platform/atas": {
+    "brand_name": "ATAS",
+    "category": "platform",
+    "domain": "atas.net",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from atas.net (website), checked by eye 2026-11-02",
+    "slug": "atas",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "platform/bookmap": {
     "brand_name": "Bookmap",
     "category": "platform",
@@ -9642,6 +9664,28 @@
       }
     }
   },
+  "platform/jigsaw": {
+    "brand_name": "Jigsaw",
+    "category": "platform",
+    "domain": "jigsawtrading.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from jigsawtrading.com (website), checked by eye 2026-11-02",
+    "slug": "jigsaw",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "platform/match-trader": {
     "brand_name": "Match Trader",
     "category": "platform",
@@ -9708,6 +9752,50 @@
       }
     }
   },
+  "platform/motivewave": {
+    "brand_name": "Motivewave",
+    "category": "platform",
+    "domain": "motivewave.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from motivewave.com (website), checked by eye 2026-11-02",
+    "slug": "motivewave",
+    "source": "website",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/multicharts": {
+    "brand_name": "Multicharts",
+    "category": "platform",
+    "domain": "multicharts.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from multicharts.com (unavatar), checked by eye 2026-11-02",
+    "slug": "multicharts",
+    "source": "unavatar",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": true,
+        "webp": true
+      }
+    }
+  },
   "platform/ninjatrader": {
     "brand_name": "Ninjatrader",
     "category": "platform",
@@ -9739,6 +9827,28 @@
       }
     }
   },
+  "platform/quantower": {
+    "brand_name": "Quantower",
+    "category": "platform",
+    "domain": "quantower.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from quantower.com (google-favicon), checked by eye 2026-11-02",
+    "slug": "quantower",
+    "source": "google-favicon",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
   "platform/rithmic": {
     "brand_name": "Rithmic",
     "category": "platform",
@@ -9747,6 +9857,28 @@
     "license_note": "official Rithmic site mark (rithmic.com favicon, matches the og-image lockup)",
     "slug": "rithmic",
     "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/sierra-chart": {
+    "brand_name": "Sierra Chart",
+    "category": "platform",
+    "domain": "sierrachart.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from sierrachart.com (website), checked by eye 2026-11-02",
+    "slug": "sierra-chart",
+    "source": "website",
     "variants": {
       "icon": {
         "ink": "color",
@@ -9866,6 +9998,28 @@
     "license_note": "official Tradovate App Store icon (Tradovate, LLC), background trimmed",
     "slug": "tradovate",
     "source": "direct-url",
+    "variants": {
+      "icon": {
+        "ink": "color",
+        "sizes": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "svg": false,
+        "webp": true
+      }
+    }
+  },
+  "platform/wealthcharts": {
+    "brand_name": "Wealthcharts",
+    "category": "platform",
+    "domain": "wealthcharts.com",
+    "fetched_at": "2026-11-02",
+    "license_note": "brand mark from wealthcharts.com (website), checked by eye 2026-11-02",
+    "slug": "wealthcharts",
+    "source": "website",
     "variants": {
       "icon": {
         "ink": "color",
